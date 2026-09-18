@@ -1,0 +1,1430 @@
+[
+  {
+    "path": "APSFSM_codegen/testdata/apsfsm_source_replay_vectors.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "HFIPD_codegen/reports/replay_results.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "HFIPD_codegen/reports/target_nominal_sensitivity.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/Qc_connection_comparison.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/active_flux_boundary.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/algebra_euler.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/by_frequency.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/code_analysis.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/continuous_reference.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/coverage.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/decision.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/dynamic.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/failure_audit.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/filter_initial_transient.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/manifold_convergence.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/manifold_step.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/manifold_time.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/negative_Qc.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/parameters.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/performance_frequency.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/phase_0.5Hz.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/phase_2Hz.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/phase_reset.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/phase_reverse.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/phase_standstill.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/phase_stop.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/positive_Qc_double.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/preflight.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/reference_step.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/standstill.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/steady.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/step_sensitivity.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/summary.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/supplement.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/target_angle_saliency.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/target_controls.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/target_id.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/target_surface.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/unit_tests.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "KRE_flux_correction_test/results/verification.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "MS/tests/control10k_acceptance/calibration_defaults.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "Math/power_cal_data.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "Math/power_cal_data1.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/be_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/continuous_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/continuous_reference.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/continuous_reference.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/dc.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/disturbance_waveforms.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/fe_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/layout_metrics.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/line_separation_checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/model_hash.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/review_inputs.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/review_outputs.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/review_state_updates.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_compact_layout/standard_checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/be_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/continuous_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/fe_interface.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/fe_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/line_separation_checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/model_files.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/model_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_fe_d_first.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_fe_d_second.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_fe_outputs.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_fe_params.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_fe_q.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_fe_states.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_root_fe_left.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_root_fe_right.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/review_validation_params.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/standard_checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/tustin_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/validation_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/fe_physical_inputs/zoh_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/frequency.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/frequency_response.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/implementation.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/manifest.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/model_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/parameterization.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/parameters.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_3.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_4.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_5.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_6.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_7.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_3.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_4.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_5.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_6.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/after_raw_7.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_3.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_4.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_5.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_6.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_7.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_diagnostic/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_3.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_4.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_5.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_6.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/before_view_7.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/channel_diagnostic/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/planned_checks/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/preview_be.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/port_aware_layout/view_before_be.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/standard_checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/startup_waveforms.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/tustin_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/validation_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_discrete_test/reports/zoh_layout.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/amplitude_step.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/dc_bias.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/dual_change_voltage_f0.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/dual_change_voltage_input.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/dual_change_voltage_k.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/dual_change_voltage_reset.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/dual_instances_base.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/frequency_150Hz.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/frequency_250Hz.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/frequency_40Hz.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/frequency_50Hz.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/frequency_60Hz.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/harmonics.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/impulse.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/model_case_errors.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/model_checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/model_frequency_comparison.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/model_frequency_fits.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/model_sample_time_scan.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/model_waveform_and_error.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/phase_step.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/random.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/repeat_sine.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/runtime_reset.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/sample_time_1000us.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/sample_time_100us.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/sample_time_500us.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/sample_time_50us.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/sine.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/step.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/model_validation/zero.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/BE_bode.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/FE_bode.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/Tustin_bode.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/ZOH_bode.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/frequency_fit.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/sample_period_scan.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "SOGI_state_space_test/reports/preflight/time_errors.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "afo/Sensorless_Control_Method_for_PMSM_Based_on_Frequency-Adaptive_Disturbance_Observer.pdf",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "ekf estimation/Speed_estimation_from_noisy_resolver_signals.pdf",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "ges/1-s2.0-S0005109825000299-main.pdf",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "ges/1905.00833v4.pdf",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "hfo/Zero_Speed_Sensorless_Scheme_for_PMSM_Drives_Using_Virtual_Flux_Signal_Injection_Based_Hybrid_Active_Flux_Observer.pdf",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "tools/skill-validation/discretization_check_summary.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/BE/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/BE/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/BE/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/BE/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/BE/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/BE/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/FE/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/FE/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/FE/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/FE/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/FE/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/FE/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/bode_output_1_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/bode_output_2_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/bode_output_2_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/MIMO/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/bode_output_1_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/bode_output_2_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/bode_output_2_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/SS_matrix_only/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/TustinPrewarp/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/TustinPrewarp/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/TustinPrewarp/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/TustinPrewarp/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/TustinPrewarp/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/TustinPrewarp/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/Tustin/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/Tustin/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/Tustin/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/Tustin/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/Tustin/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/Tustin/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/ZOH/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/ZOH/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/ZOH/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/ZOH/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/ZOH/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/ZOH/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_0/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_0/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_0/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_0/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_0/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_0/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_2/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_2/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_2/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_2/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_2/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/constant_2/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/BE/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/BE/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/BE/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/BE/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/BE/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/BE/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/FE/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/FE/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/FE/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/FE/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/FE/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/FE/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/bode_output_1_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/bode_output_2_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/bode_output_2_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/MIMO/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/bode_output_1_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/bode_output_2_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/bode_output_2_input_2.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/SS_matrix_only/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/TustinPrewarp/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/TustinPrewarp/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/TustinPrewarp/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/TustinPrewarp/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/TustinPrewarp/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/TustinPrewarp/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/Tustin/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/Tustin/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/Tustin/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/Tustin/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/Tustin/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/Tustin/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/ZOH/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/ZOH/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/ZOH/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/ZOH/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/ZOH/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/ZOH/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_0/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_0/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_0/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_0/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_0/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_0/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_2/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_2/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_2/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_2/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_2/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/constant_2/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/integrator/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/integrator/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/integrator/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/integrator/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/integrator/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/integrator/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/missing_powers/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/missing_powers/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/missing_powers/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/missing_powers/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/missing_powers/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/missing_powers/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/selftest_summary.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/unstable_FE/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/unstable_FE/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/unstable_FE/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/unstable_FE/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/unstable_FE/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/final/unstable_FE/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/integrator/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/integrator/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/integrator/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/integrator/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/integrator/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/integrator/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/missing_powers/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/missing_powers/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/missing_powers/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/missing_powers/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/missing_powers/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/missing_powers/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/selftest_summary.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_1/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_1/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_1/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_1/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_1/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_1/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_2/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_2/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_2/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_2/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_2/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/entry_2/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/smoke/verified_selftest_summary.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/unstable_FE/bode_output_1_input_1.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/unstable_FE/checks.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/unstable_FE/frequency_response.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/unstable_FE/poles.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/unstable_FE/time_error.csv",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "tools/skill-validation/matlab-discretize-verify/unstable_FE/verification_data.mat",
+    "reason": "Simulation results or non-runtime dataset"
+  },
+  {
+    "path": "新能源汽车双核异构电驱与加热控制软件说明书.docx",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "新能源汽车双核异构电驱与加热控制软件说明书_含模块流程图.docx",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "新能源汽车双核异构电驱与加热控制软件说明书_含模块流程图_v2.docx",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "新能源汽车电动压缩机厚膜加热器二合一控制软件说明书_最新版.docx",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "软著申报/源程序_新能源汽车电动压缩机厚膜加热器二合一控制软件.docx",
+    "reason": "Reference literature or non-source paperwork"
+  },
+  {
+    "path": "MDA/cfgwiz/pos_est_ab.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "新能源汽车双核异构流程图.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "新能源汽车双核异构流程图.svg",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "模块流程_08_PTC.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "模块流程_09_安全保护.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "模块流程_10_FOC.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "模块流程_11_任务调度.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "模块流程_12_IPC.png",
+    "reason": "Explanatory or generated report image"
+  },
+  {
+    "path": "模块流程_13_通信.png",
+    "reason": "Explanatory or generated report image"
+  }
+]
