@@ -1,0 +1,7 @@
+slprj/
+**/slprj/
+*.slxc
+*.autosave
+*.mldatx.bak
+*.mexw64
+

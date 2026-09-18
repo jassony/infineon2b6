@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifxmlcfg version="2.0.2">
+  <checksum>c703b3c4135520b8fa34dbce390b5fc6c5499656b992ed2631f29c240e2e7fa5</checksum>
+  <version label="V2.0.1"/>
+  <svd file="TLE9563_3QX.svd"/>
+  <tabcontainer label = "Peripherals" resize="1">
+    <treecontainer headerlabels="Structure;Settings;" label="TLE9563" desc="TLE9563 Module" columnwidths="250;600">
+    <header file="TLE9563_defines.h">
+	    <branch label="CRC">
+          <horizontalcontainer>
+            <text label="CRC enabled" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.CRC_EN" svd="0" size="400;-1" />
+          </horizontalcontainer>
+		  <horizontalcontainer>
+            <text label="Recover CRC during Init routine" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.CRC_REC_INIT" svd="0" size="400;-1" />
+          </horizontalcontainer>
+		</branch>  
+        <branch label="M_S_CTRL">
+          <horizontalcontainer>
+            <text label="Device Mode Control" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.M_S_CTRL.MODE" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Reaction in case of VCC1 Over Voltage" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.M_S_CTRL.VCC1_OV_MOD" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="VCC1 Undervoltage Reset Hysteresis Selection (see also Chapter 12.7.1 for more information)" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.M_S_CTRL.RSTN_HYS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="VCC1 Active Peak Threshold Selection" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.M_S_CTRL.I_PEAK_TH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="VCC1 Reset Threshold Control" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.M_S_CTRL.VCC1_RT" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="HW_CTRL">
+          <horizontalcontainer>
+            <text label="TSD2 minimum Waiting Time Selection" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HW_CTRL.TSD2_DEL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="VS OV comparator threshold change" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HW_CTRL.VS_OV_SEL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Sample and hold circuitry disable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HW_CTRL.SH_DISABLE" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Reset delay time" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HW_CTRL.RSTN_DEL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Soft Reset Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HW_CTRL.SOFT_RESET_RO" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Watchdog Deactivation during Stop Mode, bit1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HW_CTRL.WD_STM_EN_1" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="WD_CTRL">
+          <horizontalcontainer>
+            <text label="Watchdog Setting Check Sum Bit" size="200;-1" wordwrap="1"/>
+            <text label="Set by Device Driver" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Watchdog Deactivation during Stop Mode, bit0" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WD_CTRL.WD_STM_EN_0" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Watchdog Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WD_CTRL.WD_CFG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Watchdog Enable after Bus Wake in Stop Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WD_CTRL.WD_EN_WK_BUS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Watchdog Timer Period" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WD_CTRL.WD_TIMER" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="BUS_CTRL">
+          <horizontalcontainer>
+            <text label="HS-CAN Module Modes" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BUS_CTRL.CAN" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="WK_CTRL_BNK3">
+          <horizontalcontainer>
+            <text label="WK4 Wake-up Filter Time Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WK_CTRL_BNK3.WK_FILT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WK4 Pull-Up/Pull-Down Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WK_CTRL_BNK3.WK_PUPD" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WK4 Enable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WK_CTRL_BNK3.WK_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WKs input Banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.WK_CTRL_BNK3.WK_BNK" size="400;-1" formula="3"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="WK_CTRL_BNK4">
+          <horizontalcontainer>
+            <text label="WK5 Wake-up Filter Time Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WK_CTRL_BNK4.WK_FILT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WK5 Pull-Up/Pull-Down Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WK_CTRL_BNK4.WK_PUPD" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WK5 Enable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.WK_CTRL_BNK4.WK_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WKs input Banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.WK_CTRL_BNK4.WK_BNK" size="400;-1" formula="4"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TIMER_CTRL">
+          <horizontalcontainer>
+            <text label="Timer2 On-Time Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TIMER_CTRL.TIMER2_ON" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Timer2 Period Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TIMER_CTRL.TIMER2_PER" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cyclic Wake Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TIMER_CTRL.CYCWK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Timer1 On-Time Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TIMER_CTRL.TIMER1_ON" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Timer1 Period Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TIMER_CTRL.TIMER1_PER" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SW_SD_CTRL">
+          <horizontalcontainer>
+            <text label="Switch recovery after removal of VS Overvoltage for HS3" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS3_OV_REC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Switch recovery after removal of VS Overvoltage for HS2" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS2_OV_REC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Switch recovery after removal of VS Overvoltage for HS1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS1_OV_REC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Shutdown Disabling of all HS in case of Overtemperature event" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS_OT_SD_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Shutdown Disabling of HS3 in case of input supply overvoltage in Normal Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS3_OV_SDN_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Shutdown Disabling of HS2 in case of input supply overvoltage in Normal Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS2_OV_SDN_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Shutdown Disabling of HS1 in case of input supply overvoltage in Normal Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS1_OV_SDN_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Shutdown Disabling of HSx in case of input supply overvoltage in Stop Mode or Sleep Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS_OV_SDS_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Shutdown Disabling of HSx in case of input supply undervoltage" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS_UV_SD_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Switch recovery after removal of Undervoltage for HSx" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SW_SD_CTRL.HS_UV_REC" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="HS_CTRL">
+          <horizontalcontainer>
+            <text label="HS3 Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_CTRL.HS3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="HS2 Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_CTRL.HS2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="HS1 Configuration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_CTRL.HS1" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="INT_MASK">
+          <horizontalcontainer>
+            <text label="Periodical INTN generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.INTN_CYC_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Disable Watchdog in Software Development Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.WD_SDM_DISABLE" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Watchdog failure in Software Development Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.WD_SDM" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="SPI and CRC interrupt generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.SPI_CRC_FAIL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Bridge Driver Interrupt generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.BD_STAT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="High Side Interrupt generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.HS_STAT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="BUS Interrupt generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.BUS_STAT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Temperature Interrupt generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.TEMP_STAT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="SUPPLY Status Interrupt generation" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.INT_MASK.SUPPLY_STAT" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="PWM_CTRL_BNK0">
+          <horizontalcontainer>
+            <text label="PWM1 generator Frequency Setting" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.PWM_CTRL_BNK0.PWM_FREQ" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM1 Duty Cycle Setting (bit4 = LSB; bit13 = MSB) " size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.PWM_CTRL_BNK0.PWM_DC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Internal PWM generator selection" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.PWM_CTRL_BNK0.PWM_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="PWM_CTRL_BNK1">
+          <horizontalcontainer>
+            <text label="PWM2 generator Frequency Setting" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.PWM_CTRL_BNK1.PWM_FREQ" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM2 Duty Cycle Setting (bit4 = LSB; bit13 = MSB) " size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.PWM_CTRL_BNK1.PWM_DC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Internal PWM generator selection" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.PWM_CTRL_BNK1.PWM_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="PWM_CTRL_BNK2">
+          <horizontalcontainer>
+            <text label="PWM3 generator Frequency Setting" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.PWM_CTRL_BNK2.PWM_FREQ" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM3 Duty Cycle Setting (bit4 = LSB; bit13 = MSB) " size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.PWM_CTRL_BNK2.PWM_DC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Internal PWM generator selection" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.PWM_CTRL_BNK2.PWM_BNK" size="400;-1" formula="2"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="PWM_CTRL_BNK3">
+          <horizontalcontainer>
+            <text label="PWM4 generator Frequency Setting" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.PWM_CTRL_BNK3.PWM_FREQ" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM4 Duty Cycle Setting (bit4 = LSB; bit13 = MSB) " size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.PWM_CTRL_BNK3.PWM_DC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Internal PWM generator selection" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.PWM_CTRL_BNK3.PWM_BNK" size="400;-1" formula="3"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="SYS_STAT_CTRL">
+          <horizontalcontainer>
+            <text label="System Status Control (bit0=LSB; bit15=MSB) Dedicated bytes for system configuration, access only by microcontroller. Cleared after power up and soft reset." size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SYS_STAT_CTRL.SYS_STAT" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="GENCTRL">
+          <horizontalcontainer>
+            <text label="Bridge driver synchronization frequency" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.BDFREQ" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge pump under voltage (referred to VS)" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.CPUVTH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="External MOSFET normal / logic level selection" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.FET_LVL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Automatic switchover between dual and single charge pump stage" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.CPSTGA" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Bridge driver recover from VS and VSINT Overvoltage" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.BDOV_REC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Adaptation of the pre-charge and pre-discharge current" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.IPCHGADT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Adaptive gate control" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.AGC" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="CPEN" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.CPEN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Postcharge disable bit" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.POCHGDIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Filter for adaptive gate control" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.AGCFILT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Detection of active / FW MOSFET" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.EN_GEN_CHECK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Gate driver hold current IHOLD" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.IHOLD" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Frequency modulation of the charge pump" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.GENCTRL.FMODE" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="CSA">
+          <horizontalcontainer>
+            <text label="Selection of 3 or 6 PWM inputs" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.PWM_NB" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Capacitance connected to the current sense amplifier output (CCSO), see also Chapter 12.12.4" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.CSO_CAP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Direction of the current sense amplifier" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.CSD" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Overcurrent filter time of CSO" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.OCFILT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="CSA OFF" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.CSA_OFF" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Overcurrent detection threshold of CSO" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.OCTH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Gain of the current sense amplifier" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.CSAG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Overcurrent shutdown Enable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.CSA.OCEN" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="LS_VDS">
+          <horizontalcontainer>
+            <text label="Filter time of drain-source voltage monitoring" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.LS_VDS.TFVDS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="LS3 drain-source overvoltage threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.LS_VDS.LS3VDSTH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="LS2 drain-source overvoltage threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.LS_VDS.LS2VDSTH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="LS1 drain-source overvoltage threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.LS_VDS.LS1VDSTH" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="HS_VDS">
+          <horizontalcontainer>
+            <text label="Deep adaptation enable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_VDS.DEEP_ADAP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="HS3 drain-source overvoltage threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_VDS.HS3VDSTH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="HS2 drain-source overvoltage threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_VDS.HS2VDSTH" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="HS1 drain-source overvoltage threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HS_VDS.HS1VDSTH" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="CCP_BLK_BNK0">
+          <horizontalcontainer>
+            <text label="Active blank time for HB1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK0.TBLANK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Active cross-current protection time for HB1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK0.TCCP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cross-current and time banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.CCP_BLK_BNK0.CCP_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="CCP_BLK_BNK1">
+          <horizontalcontainer>
+            <text label="Active blank time for HB2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK1.TBLANK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Active cross-current protection time for HB2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK1.TCCP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cross-current and time banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.CCP_BLK_BNK1.CCP_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="CCP_BLK_BNK2">
+          <horizontalcontainer>
+            <text label="Active blank time  for HB3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK2.TBLANK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Active cross-current protection time for HB3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK2.TCCP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cross-current and time banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.CCP_BLK_BNK2.CCP_BNK" size="400;-1" formula="2"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="CCP_BLK_BNK4">
+          <horizontalcontainer>
+            <text label="FW blank time for HB1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK4.TBLANK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="FW cross-current protection time for HB1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK4.TCCP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cross-current and time banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.CCP_BLK_BNK4.CCP_BNK" size="400;-1" formula="4"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="CCP_BLK_BNK5">
+          <horizontalcontainer>
+            <text label="FW blank time for HB2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK5.TBLANK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="FW cross-current protection time for HB2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK5.TCCP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cross-current and time banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.CCP_BLK_BNK5.CCP_BNK" size="400;-1" formula="5"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="CCP_BLK_BNK6">
+          <horizontalcontainer>
+            <text label="FW blank time for HB3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK6.TBLANK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="FW cross-current protection time for HB3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.CCP_BLK_BNK6.TCCP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Cross-current and time banking" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.CCP_BLK_BNK6.CCP_BNK" size="400;-1" formula="6"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HBMODE">
+          <horizontalcontainer>
+            <text label="Half-bridge 3 MODE selection" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.HB3MODE" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Active freewheeling for half-bridge 3 during PWM" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.AFW3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM mode for half-bridge 3" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.HB3_PWM_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Half-bridge 2 MODE selection" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.HB2MODE" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Active freewheeling for half-bridge 2 during PWM" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.AFW2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM mode for half-bridge 2" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.HB2_PWM_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Half-bridge 1 MODE selection" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.HB1MODE" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Active freewheeling for half-bridge 1 during PWM" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.AFW1" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="PWM mode for half-bridge 1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HBMODE.HB1_PWM_EN" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="TPRECHG_BNK0">
+          <horizontalcontainer>
+            <text label="Precharge time of HB 3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.TPRECHG_BNK0.TPCHG3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Precharge time of HB 2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.TPRECHG_BNK0.TPCHG2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Precharge time of HB 1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.TPRECHG_BNK0.TPCHG1" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="TPCHG_BNK, Precharge/predischarge time selection" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TPRECHG_BNK0.TPCHG_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TPRECHG_BNK1">
+          <horizontalcontainer>
+            <text label="Predischarge time of HB 3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.TPRECHG_BNK1.TPCHG3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Predischarge time of HB 2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.TPRECHG_BNK1.TPCHG2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Predischarge time of HB 1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.TPRECHG_BNK1.TPCHG1" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="TPCHG_BNK, Precharge/predischarge time selection" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TPRECHG_BNK1.TPCHG_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="ST_ICHG">
+          <horizontalcontainer>
+            <text label="Static charge and discharge currents of HB3" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.ST_ICHG.ICHGST3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Static charge and discharge currents of HB2" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.ST_ICHG.ICHGST2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Static charge and discharge currents of HB1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.ST_ICHG.ICHGST1" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_BNK0">
+          <horizontalcontainer>
+            <text label="Discharge current of HB1 active MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK0.IDCHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge current of HB1 active MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK0.ICHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for charge and discharge currents of active MOSFETs" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_ICHG_BNK0.ICHG_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_BNK1">
+          <horizontalcontainer>
+            <text label="Discharge current of HB2 active MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK1.IDCHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge current of HB2 active MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK1.ICHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for charge and discharge currents of active MOSFETs" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_ICHG_BNK1.ICHG_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_BNK2">
+          <horizontalcontainer>
+            <text label="Discharge current of HB3 active MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK2.IDCHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge current of HB3 active MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK2.ICHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for charge and discharge currents of active MOSFETs" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_ICHG_BNK2.ICHG_BNK" size="400;-1" formula="2"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_BNK4">
+          <horizontalcontainer>
+            <text label="Discharge current of HB1 fw MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK4.IDCHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge current of HB1 fw MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK4.ICHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for charge and discharge currents of active MOSFETs" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_ICHG_BNK4.ICHG_BNK" size="400;-1" formula="4"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_BNK5">
+          <horizontalcontainer>
+            <text label="Discharge current of HB2 fw MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK5.IDCHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge current of HB2 fw MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK5.ICHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for charge and discharge currents of active MOSFETs" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_ICHG_BNK5.ICHG_BNK" size="400;-1" formula="5"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_BNK6">
+          <horizontalcontainer>
+            <text label="Discharge current of HB3 fw MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK6.IDCHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Charge current of HB3 fw MOSFET" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_ICHG_BNK6.ICHG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for charge and discharge currents of active MOSFETs" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_ICHG_BNK6.ICHG_BNK" size="400;-1" formula="6"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_ICHG_MAX">
+          <horizontalcontainer>
+            <text label="Control of HB3 off-state current source and current sink" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HB_ICHG_MAX.HB3IDIAG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Control of HB2 pull-down for off-state diagnostic" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HB_ICHG_MAX.HB2IDIAG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Control of HB1 pull-down for off-state diagnostic" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HB_ICHG_MAX.HB1IDIAG" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Maximum drive current of HB3 during the pre-charge and pre-discharge phases1)" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HB_ICHG_MAX.ICHGMAX3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Maximum drive current of HB2 during the pre-charge phase and pre-discharge phases1)" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HB_ICHG_MAX.ICHGMAX2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Maximum drive current of HB1 during the pre-charge and pre-discharge phases1)" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.HB_ICHG_MAX.ICHGMAX1" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_PCHG_INIT_BNK0">
+          <horizontalcontainer>
+            <text label="Initial predischarge current of HB1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_PCHG_INIT_BNK0.PDCHGINIT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Initial precharge current of HB1" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_PCHG_INIT_BNK0.PCHGINIT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for Precharge an Predischarge Initial" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_PCHG_INIT_BNK0.INIT_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_PCHG_INIT_BNK1">
+          <horizontalcontainer>
+            <text label="Initial predischarge current of HB2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_PCHG_INIT_BNK1.PDCHGINIT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Initial precharge current of HB2" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_PCHG_INIT_BNK1.PCHGINIT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for Precharge an Predischarge Initial" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_PCHG_INIT_BNK1.INIT_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="HB_PCHG_INIT_BNK2">
+          <horizontalcontainer>
+            <text label="Initial predischarge current of HB3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_PCHG_INIT_BNK2.PDCHGINIT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Initial precharge current of HBx3" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.HB_PCHG_INIT_BNK2.PCHGINIT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for Precharge an Predischarge Initial" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.HB_PCHG_INIT_BNK2.INIT_BNK" size="400;-1" formula="2"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TDON_HB_CTRL_BNK0">
+          <horizontalcontainer>
+            <text label="Turn-on delay time of active MOSFET of HB1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TDON_HB_CTRL_BNK0.TDON" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for turn-on delay time" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TDON_HB_CTRL_BNK0.HB_TDON_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TDON_HB_CTRL_BNK1">
+          <horizontalcontainer>
+            <text label="Turn-on delay time of active MOSFET of HB2" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TDON_HB_CTRL_BNK1.TDON" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for turn-on delay time" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TDON_HB_CTRL_BNK1.HB_TDON_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TDON_HB_CTRL_BNK2">
+          <horizontalcontainer>
+            <text label="Turn-on delay time of active MOSFET of HB3" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TDON_HB_CTRL_BNK2.TDON" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for turn-on delay time" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TDON_HB_CTRL_BNK2.HB_TDON_BNK" size="400;-1" formula="2"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TDOFF_HB_CTRL_BNK0">
+          <horizontalcontainer>
+            <text label="Turn-off delay time of active MOSFET of HB1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TDOFF_HB_CTRL_BNK0.TDOFF" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for turn-off delay time" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TDOFF_HB_CTRL_BNK0.HB_TDOFF_BNK" size="400;-1" formula="0"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TDOFF_HB_CTRL_BNK1">
+          <horizontalcontainer>
+            <text label="Turn-off delay time of active MOSFET of HB2" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TDOFF_HB_CTRL_BNK1.TDOFF" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for turn-off delay time" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TDOFF_HB_CTRL_BNK1.HB_TDOFF_BNK" size="400;-1" formula="1"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="TDOFF_HB_CTRL_BNK2">
+          <horizontalcontainer>
+            <text label="Turn-off delay time of active MOSFET of HB3" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.TDOFF_HB_CTRL_BNK2.TDOFF" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Banking bits for turn-off delay time" size="200;-1" wordwrap="1"/>
+            <math define="TLE9563.TDOFF_HB_CTRL_BNK2.HB_TDOFF_BNK" size="400;-1" formula="2"/>
+          </horizontalcontainer>
+        </branch>
+        <branch label="BRAKE">
+          <horizontalcontainer>
+            <text label="LS3 output disable during SLAM mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.SLAM_LS3_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="LS2 output disable during SLAM mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.SLAM_LS2_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="LS1 output disable during SLAM mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.SLAM_LS1_DIS" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Slam mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.SLAM" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="VDS Overvoltage for LS1-3 during braking" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.VDSTH_BRK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Blank time of VDS overvoltage during braking" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.TBLK_BRK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Parking brake enable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.PARK_BRK_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Overvoltage brake enable" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.OV_BRK_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Overvoltage brake threshold" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.BRAKE.OV_BRK_TH" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_CTRL">
+          <horizontalcontainer>
+            <text label="Oscillator Calibration Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CTRL.OSC_CAL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="(Un)locking mechanism of oscillator recalibration" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CTRL.TRIM_EN" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="CAN Time Out Masking" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CTRL.CANTO_MASK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="SWK Configuration valid" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CTRL.CFG_VAL" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_BTL1_CTRL">
+          <horizontalcontainer>
+            <text label="Sampling Point Position" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_BTL1_CTRL.SP" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Number of Time Quanta in a Bit Time" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_BTL1_CTRL.TBIT" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_ID1_CTRL">
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 28" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID28" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 27" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID27" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 26" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID26" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 25" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID25" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 24" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID24" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 23" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID23" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 22" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID22" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 21" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID21" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 20" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID20" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 19" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID19" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 18" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID18" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 17" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID17" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 16" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID16" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 15" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID15" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 14" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID14" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 13" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID1_CTRL.ID13" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_ID0_CTRL">
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 12" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID12" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 11" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID11" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 10" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID10" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 9" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID9" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 8" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID8" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 7" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID7" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 6" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID6" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 5" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID5" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 4" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID4" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 3" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 2" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 1" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID1" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Bit 0" size="200;-1" wordwrap="1"/>
+            <checkbox define="TLE9563.SWK_ID0_CTRL.ID0" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Remote Transmission Request Field (acc. ISO11898-22016)" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_ID0_CTRL.RTR" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Identifier Extension Bit" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_ID0_CTRL.IDE" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_MASK_ID1_CTRL">
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 28" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID28" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 27" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID27" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 26" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID26" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 25" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID25" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 24" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID24" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 23" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID23" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 22" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID22" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 21" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID21" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 20" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID20" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 19" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID19" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 18" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID18" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 17" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID17" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 16" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID16" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 15" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID15" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 14" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID14" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 13" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID1_CTRL.MASK_ID13" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_MASK_ID0_CTRL">
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 12" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID12" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 11" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID11" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 10" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID10" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 9" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID9" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 8" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID8" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 7" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID7" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 6" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID6" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 5" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID5" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 4" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID4" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 3" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 2" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID2" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 1" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID1" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="WUF Identifier Mask Bit 0" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_MASK_ID0_CTRL.MASK_ID0" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_DLC_CTRL">
+          <horizontalcontainer>
+            <text label="Payload length in number of bytes " size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_DLC_CTRL.DLC" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_DATA3_CTRL">
+          <horizontalcontainer>
+            <text label="Data7 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA3_CTRL.DATA7" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Data6 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA3_CTRL.DATA6" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_DATA2_CTRL">
+          <horizontalcontainer>
+            <text label="Data5 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA2_CTRL.DATA5" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Data4 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA2_CTRL.DATA4" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_DATA1_CTRL">
+          <horizontalcontainer>
+            <text label="Data3 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA1_CTRL.DATA3" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Data2 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA1_CTRL.DATA2" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_DATA0_CTRL">
+          <horizontalcontainer>
+            <text label="Data1 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA0_CTRL.DATA1" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Data0 byte content(bit0=LSB; bit7=MSB)" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_DATA0_CTRL.DATA0" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_CAN_FD_CTRL">
+          <horizontalcontainer>
+            <text label="Error Counter Disable Function" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CAN_FD_CTRL.DIS_ERR_CNT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="CAN FD Dominant Filter Time" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CAN_FD_CTRL.FD_FILTER" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Enable CAN FD Tolerant Mode" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CAN_FD_CTRL.CAN_FD_EN" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_OSC_TRIM_CTRL">
+          <horizontalcontainer>
+            <text label="SWK Receiver selection (only accessible if TRIM_EN = '11')" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_OSC_TRIM_CTRL.RX_WK_SEL" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Trimming of temp_coef (only writable if TRIM_EN = '11')" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_OSC_TRIM_CTRL.TEMP_COEF" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Trimming of oscillator (only writable if" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_OSC_TRIM_CTRL.TRIM_OSC" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_OSC_CAL_STAT">
+          <horizontalcontainer>
+            <text label="Oscillator Calibration High Register" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_OSC_CAL_STAT.OSC_CAL_H" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Oscillator Calibration Low Register" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_OSC_CAL_STAT.OSC_CAL_L" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_CDR_CTRL">
+          <horizontalcontainer>
+            <text label="Input Frequency for CDR module" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_CDR_CTRL.SEL_OSC_CLK" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Select Time Constant of Filter" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CDR_CTRL.SELFILT" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Enable CDR" size="200;-1" wordwrap="1"/>
+            <combo define="TLE9563.SWK_CDR_CTRL.CDR_EN" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+        <branch label="SWK_CDR_LIMIT">
+          <horizontalcontainer>
+            <text label="Upper Bit Time Detection Range of Clock and Data" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_CDR_LIMIT.CDR_LIM_H" size="400;-1" />
+          </horizontalcontainer>
+          <horizontalcontainer>
+            <text label="Lower Bit Time Detection Range of Clock and Data" size="200;-1" wordwrap="1"/>
+            <spinbox define="TLE9563.SWK_CDR_LIMIT.CDR_LIM_L" size="400;-1" />
+          </horizontalcontainer>
+        </branch>
+    </header>
+    </treecontainer>
+  </tabcontainer>
+</ifxmlcfg>

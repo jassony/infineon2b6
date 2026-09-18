@@ -1,0 +1,4718 @@
+{
+  "models": [
+    "sogi_dual_output_filter_fe_discrete",
+    "sogi_dual_output_filter_fe_validation"
+  ],
+  "sourceFolder": "D:\\A_PRJ\\infineon3in1\\code_xcp\\SOGI_state_space_test",
+  "scopes": [
+    {
+      "path": "sogi_dual_output_filter_fe_discrete",
+      "blocks": [
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:1",
+          "name": "Input_PU",
+          "type": "Inport",
+          "position": [
+            180,
+            100,
+            210,
+            120
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 87.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                110
+              ],
+              "connectionPosition": [
+                215,
+                110
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:2",
+          "name": "Reset_States",
+          "type": "Inport",
+          "position": [
+            180,
+            210,
+            210,
+            230
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 122.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                220
+              ],
+              "connectionPosition": [
+                215,
+                220
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:3",
+          "name": "Cal_SOGI_F0_Hz_f32",
+          "type": "Inport",
+          "position": [
+            180,
+            330,
+            210,
+            350
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 199.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                340
+              ],
+              "connectionPosition": [
+                215,
+                340
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:4",
+          "name": "Cal_SOGI_K_f32",
+          "type": "Inport",
+          "position": [
+            180,
+            450,
+            210,
+            470
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 155.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                460
+              ],
+              "connectionPosition": [
+                215,
+                460
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:5",
+          "name": "Cal_SOGI_Ts_s_f32",
+          "type": "Inport",
+          "position": [
+            180,
+            570,
+            210,
+            590
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 184.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                580
+              ],
+              "connectionPosition": [
+                215,
+                580
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:50",
+          "name": "Delay_Physical_D",
+          "type": "UnitDelay",
+          "position": [
+            2090,
+            580,
+            2160,
+            620
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 163.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2075,
+                600
+              ],
+              "connectionPosition": [
+                2085,
+                600
+              ]
+            },
+            "Outport": {
+              "position": [
+                2165,
+                600
+              ],
+              "connectionPosition": [
+                2165,
+                600
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:57",
+          "name": "Delay_Physical_Q",
+          "type": "UnitDelay",
+          "position": [
+            2090,
+            960,
+            2160,
+            1000
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 164.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2075,
+                980
+              ],
+              "connectionPosition": [
+                2085,
+                980
+              ]
+            },
+            "Outport": {
+              "position": [
+                2165,
+                980
+              ],
+              "connectionPosition": [
+                2165,
+                980
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:10",
+          "name": "Frequency_Hz_To_radps",
+          "type": "Gain",
+          "position": [
+            420,
+            320,
+            540,
+            360
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 224.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                405,
+                340
+              ],
+              "connectionPosition": [
+                415,
+                340
+              ]
+            },
+            "Outport": {
+              "position": [
+                545,
+                340
+              ],
+              "connectionPosition": [
+                545,
+                340
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:11",
+          "name": "Frequency_Step_r",
+          "type": "Product",
+          "position": [
+            800,
+            320,
+            920,
+            380
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 165.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  785,
+                  335
+                ],
+                "connectionPosition": [
+                  795,
+                  335
+                ]
+              },
+              {
+                "position": [
+                  785,
+                  365
+                ],
+                "connectionPosition": [
+                  795,
+                  365
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                925,
+                350
+              ],
+              "connectionPosition": [
+                925,
+                350
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:18",
+          "name": "Publish_D_Current",
+          "type": "Goto",
+          "position": [
+            1060,
+            735,
+            1220,
+            765
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 169.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1045,
+                750
+              ],
+              "connectionPosition": [
+                1055,
+                750
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:13",
+          "name": "Publish_Frequency_Step",
+          "type": "Goto",
+          "position": [
+            980,
+            335,
+            1160,
+            365
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 222.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                965,
+                350
+              ],
+              "connectionPosition": [
+                975,
+                350
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:8",
+          "name": "Publish_Gain_k",
+          "type": "Goto",
+          "position": [
+            420,
+            445,
+            560,
+            475
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 141.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                405,
+                460
+              ],
+              "connectionPosition": [
+                415,
+                460
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:28",
+          "name": "Publish_Input_Effective",
+          "type": "Goto",
+          "position": [
+            1060,
+            1535,
+            1240,
+            1565
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 208.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1045,
+                1550
+              ],
+              "connectionPosition": [
+                1055,
+                1550
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:6",
+          "name": "Publish_Input_PU",
+          "type": "Goto",
+          "position": [
+            420,
+            95,
+            560,
+            125
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 161.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                405,
+                110
+              ],
+              "connectionPosition": [
+                415,
+                110
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:9",
+          "name": "Publish_Period_Ts",
+          "type": "Goto",
+          "position": [
+            420,
+            565,
+            580,
+            595
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 168.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                405,
+                580
+              ],
+              "connectionPosition": [
+                415,
+                580
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:23",
+          "name": "Publish_Q_Current",
+          "type": "Goto",
+          "position": [
+            1060,
+            1075,
+            1220,
+            1105
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 170.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1045,
+                1090
+              ],
+              "connectionPosition": [
+                1055,
+                1090
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:7",
+          "name": "Publish_Reset",
+          "type": "Goto",
+          "position": [
+            420,
+            205,
+            560,
+            235
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 131.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                405,
+                220
+              ],
+              "connectionPosition": [
+                415,
+                220
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:51",
+          "name": "Publish_Stored_D",
+          "type": "Goto",
+          "position": [
+            2580,
+            585,
+            2740,
+            615
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 162.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2565,
+                600
+              ],
+              "connectionPosition": [
+                2575,
+                600
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:58",
+          "name": "Publish_Stored_Q",
+          "type": "Goto",
+          "position": [
+            2580,
+            965,
+            2740,
+            995
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 163.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2565,
+                980
+              ],
+              "connectionPosition": [
+                2575,
+                980
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:46",
+          "name": "Read_D_Current_calcD1",
+          "type": "From",
+          "position": [
+            1270,
+            535,
+            1470,
+            565
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 221.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                550
+              ],
+              "connectionPosition": [
+                1475,
+                550
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:55",
+          "name": "Read_D_Current_calcQ1",
+          "type": "From",
+          "position": [
+            1270,
+            965,
+            1470,
+            995
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 223.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                980
+              ],
+              "connectionPosition": [
+                1475,
+                980
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:52",
+          "name": "Read_D_Current_outReadD",
+          "type": "From",
+          "position": [
+            1530,
+            1225,
+            1710,
+            1255
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 249.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1715,
+                1240
+              ],
+              "connectionPosition": [
+                1715,
+                1240
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:49",
+          "name": "Read_Frequency_Step_calcD4",
+          "type": "From",
+          "position": [
+            1270,
+            685,
+            1470,
+            715
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 274.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                700
+              ],
+              "connectionPosition": [
+                1475,
+                700
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:56",
+          "name": "Read_Frequency_Step_calcQ2",
+          "type": "From",
+          "position": [
+            1270,
+            1025,
+            1470,
+            1055
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 275.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                1040
+              ],
+              "connectionPosition": [
+                1475,
+                1040
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:48",
+          "name": "Read_Gain_k_calcD3",
+          "type": "From",
+          "position": [
+            1270,
+            635,
+            1470,
+            665
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 194.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                650
+              ],
+              "connectionPosition": [
+                1475,
+                650
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:45",
+          "name": "Read_Input_Effective_calcD0",
+          "type": "From",
+          "position": [
+            1270,
+            485,
+            1470,
+            515
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 260.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                500
+              ],
+              "connectionPosition": [
+                1475,
+                500
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:26",
+          "name": "Read_Input_PU_sourceU",
+          "type": "From",
+          "position": [
+            580,
+            1630,
+            740,
+            1660
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 226.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                745,
+                1645
+              ],
+              "connectionPosition": [
+                745,
+                1645
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:12",
+          "name": "Read_Period_Ts_frt",
+          "type": "From",
+          "position": [
+            580,
+            405,
+            720,
+            435
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 179.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                725,
+                420
+              ],
+              "connectionPosition": [
+                725,
+                420
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:47",
+          "name": "Read_Q_Current_calcD2",
+          "type": "From",
+          "position": [
+            1270,
+            585,
+            1470,
+            615
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 223.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                600
+              ],
+              "connectionPosition": [
+                1475,
+                600
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:54",
+          "name": "Read_Q_Current_calcQ0",
+          "type": "From",
+          "position": [
+            1270,
+            905,
+            1470,
+            935
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 224.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1475,
+                920
+              ],
+              "connectionPosition": [
+                1475,
+                920
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:59",
+          "name": "Read_Q_Current_outReadQ",
+          "type": "From",
+          "position": [
+            1530,
+            1345,
+            1710,
+            1375
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 251.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1715,
+                1360
+              ],
+              "connectionPosition": [
+                1715,
+                1360
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:15",
+          "name": "Read_Reset_resetD",
+          "type": "From",
+          "position": [
+            580,
+            735,
+            720,
+            765
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 181.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                725,
+                750
+              ],
+              "connectionPosition": [
+                725,
+                750
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:20",
+          "name": "Read_Reset_resetQ",
+          "type": "From",
+          "position": [
+            580,
+            1075,
+            720,
+            1105
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 182.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                725,
+                1090
+              ],
+              "connectionPosition": [
+                725,
+                1090
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:25",
+          "name": "Read_Reset_resetU",
+          "type": "From",
+          "position": [
+            580,
+            1535,
+            720,
+            1565
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 181.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                725,
+                1550
+              ],
+              "connectionPosition": [
+                725,
+                1550
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:16",
+          "name": "Read_Stored_D_storedD",
+          "type": "From",
+          "position": [
+            580,
+            830,
+            740,
+            860
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 223.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                745,
+                845
+              ],
+              "connectionPosition": [
+                745,
+                845
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:21",
+          "name": "Read_Stored_Q_storedQ",
+          "type": "From",
+          "position": [
+            580,
+            1170,
+            740,
+            1200
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 225.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                745,
+                1185
+              ],
+              "connectionPosition": [
+                745,
+                1185
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:17",
+          "name": "Reset_Current_D",
+          "type": "Switch",
+          "position": [
+            820,
+            710,
+            940,
+            790
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 156.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  805,
+                  725
+                ],
+                "connectionPosition": [
+                  815,
+                  725
+                ]
+              },
+              {
+                "position": [
+                  805,
+                  750
+                ],
+                "connectionPosition": [
+                  815,
+                  750
+                ]
+              },
+              {
+                "position": [
+                  805,
+                  775
+                ],
+                "connectionPosition": [
+                  815,
+                  775
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                945,
+                750
+              ],
+              "connectionPosition": [
+                945,
+                750
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:27",
+          "name": "Reset_Current_Input",
+          "type": "Switch",
+          "position": [
+            820,
+            1510,
+            940,
+            1590
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 185.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  805,
+                  1525
+                ],
+                "connectionPosition": [
+                  815,
+                  1525
+                ]
+              },
+              {
+                "position": [
+                  805,
+                  1550
+                ],
+                "connectionPosition": [
+                  815,
+                  1550
+                ]
+              },
+              {
+                "position": [
+                  805,
+                  1575
+                ],
+                "connectionPosition": [
+                  815,
+                  1575
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                945,
+                1550
+              ],
+              "connectionPosition": [
+                945,
+                1550
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:22",
+          "name": "Reset_Current_Q",
+          "type": "Switch",
+          "position": [
+            820,
+            1050,
+            940,
+            1130
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 157.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  805,
+                  1065
+                ],
+                "connectionPosition": [
+                  815,
+                  1065
+                ]
+              },
+              {
+                "position": [
+                  805,
+                  1090
+                ],
+                "connectionPosition": [
+                  815,
+                  1090
+                ]
+              },
+              {
+                "position": [
+                  805,
+                  1115
+                ],
+                "connectionPosition": [
+                  815,
+                  1115
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                945,
+                1090
+              ],
+              "connectionPosition": [
+                945,
+                1090
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:29",
+          "name": "Update_InPhase_State_FE",
+          "type": "SubSystem",
+          "position": [
+            1530,
+            480,
+            1930,
+            720
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 241.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  1515,
+                  500
+                ],
+                "connectionPosition": [
+                  1525,
+                  500
+                ]
+              },
+              {
+                "position": [
+                  1515,
+                  550
+                ],
+                "connectionPosition": [
+                  1525,
+                  550
+                ]
+              },
+              {
+                "position": [
+                  1515,
+                  600
+                ],
+                "connectionPosition": [
+                  1525,
+                  600
+                ]
+              },
+              {
+                "position": [
+                  1515,
+                  650
+                ],
+                "connectionPosition": [
+                  1525,
+                  650
+                ]
+              },
+              {
+                "position": [
+                  1515,
+                  700
+                ],
+                "connectionPosition": [
+                  1525,
+                  700
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1935,
+                600
+              ],
+              "connectionPosition": [
+                1935,
+                600
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:38",
+          "name": "Update_Quadrature_State_FE",
+          "type": "SubSystem",
+          "position": [
+            1530,
+            890,
+            1930,
+            1070
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 267.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  1515,
+                  920
+                ],
+                "connectionPosition": [
+                  1525,
+                  920
+                ]
+              },
+              {
+                "position": [
+                  1515,
+                  980
+                ],
+                "connectionPosition": [
+                  1525,
+                  980
+                ]
+              },
+              {
+                "position": [
+                  1515,
+                  1040
+                ],
+                "connectionPosition": [
+                  1525,
+                  1040
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1935,
+                980
+              ],
+              "connectionPosition": [
+                1935,
+                980
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:14",
+          "name": "Zero_D",
+          "type": "Constant",
+          "position": [
+            580,
+            630,
+            700,
+            670
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 71.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                705,
+                650
+              ],
+              "connectionPosition": [
+                705,
+                650
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:24",
+          "name": "Zero_Input",
+          "type": "Constant",
+          "position": [
+            580,
+            1430,
+            700,
+            1470
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 100.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                705,
+                1450
+              ],
+              "connectionPosition": [
+                705,
+                1450
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:19",
+          "name": "Zero_Q",
+          "type": "Constant",
+          "position": [
+            580,
+            970,
+            700,
+            1010
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 72.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                705,
+                990
+              ],
+              "connectionPosition": [
+                705,
+                990
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:53",
+          "name": "InPhase_D_PU",
+          "type": "Outport",
+          "position": [
+            2110,
+            1230,
+            2140,
+            1250
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 139.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2095,
+                1240
+              ],
+              "connectionPosition": [
+                2105,
+                1240
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:60",
+          "name": "Quadrature_Q_PU",
+          "type": "Outport",
+          "position": [
+            2110,
+            1350,
+            2140,
+            1370
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 167.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2095,
+                1360
+              ],
+              "connectionPosition": [
+                2105,
+                1360
+              ]
+            },
+            "Outport": []
+          }
+        }
+      ],
+      "annotations": {
+        "text": "SOGI | Forward Euler | physical D/Q states | single\nDdot = w0*(k*(u-D)-Q); Qdot = w0*D; w0 = 2*pi*f0\nOutput current D/Q, then update. Reset overrides u and effective states.\nPhysical parameters are formal inputs, frozen per run. Ts must match scheduling.",
+        "position": [
+          140,
+          -160,
+          643,
+          -94
+        ]
+      },
+      "lines": [
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:1",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:6",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              110
+            ],
+            [
+              415,
+              110
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:2",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:7",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              220
+            ],
+            [
+              415,
+              220
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:4",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:8",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              460
+            ],
+            [
+              415,
+              460
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:5",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:9",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              580
+            ],
+            [
+              415,
+              580
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:3",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:10",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              340
+            ],
+            [
+              415,
+              340
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:10",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:11",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              545,
+              340
+            ],
+            [
+              745,
+              340
+            ],
+            [
+              745,
+              335
+            ],
+            [
+              795,
+              335
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:12",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:11",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              725,
+              420
+            ],
+            [
+              765,
+              420
+            ],
+            [
+              765,
+              365
+            ],
+            [
+              795,
+              365
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:11",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:13",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              925,
+              350
+            ],
+            [
+              975,
+              350
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:14",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:17",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              705,
+              650
+            ],
+            [
+              775,
+              650
+            ],
+            [
+              775,
+              725
+            ],
+            [
+              815,
+              725
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:15",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:17",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              725,
+              750
+            ],
+            [
+              815,
+              750
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:16",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:17",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              745,
+              845
+            ],
+            [
+              775,
+              845
+            ],
+            [
+              775,
+              775
+            ],
+            [
+              815,
+              775
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:17",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:18",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              945,
+              750
+            ],
+            [
+              1055,
+              750
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:19",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:22",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              705,
+              990
+            ],
+            [
+              775,
+              990
+            ],
+            [
+              775,
+              1065
+            ],
+            [
+              815,
+              1065
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:20",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:22",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              725,
+              1090
+            ],
+            [
+              815,
+              1090
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:21",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:22",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              745,
+              1185
+            ],
+            [
+              775,
+              1185
+            ],
+            [
+              775,
+              1115
+            ],
+            [
+              815,
+              1115
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:22",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:23",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              945,
+              1090
+            ],
+            [
+              1055,
+              1090
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:24",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:27",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              705,
+              1450
+            ],
+            [
+              775,
+              1450
+            ],
+            [
+              775,
+              1525
+            ],
+            [
+              815,
+              1525
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:25",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:27",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              725,
+              1550
+            ],
+            [
+              815,
+              1550
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:26",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:27",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              745,
+              1645
+            ],
+            [
+              775,
+              1645
+            ],
+            [
+              775,
+              1575
+            ],
+            [
+              815,
+              1575
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:27",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:28",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              945,
+              1550
+            ],
+            [
+              1055,
+              1550
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:45",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:29",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              500
+            ],
+            [
+              1525,
+              500
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:46",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:29",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              550
+            ],
+            [
+              1525,
+              550
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:47",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:29",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              600
+            ],
+            [
+              1525,
+              600
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:48",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:29",
+          "destinationPort": 4,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              650
+            ],
+            [
+              1525,
+              650
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:49",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:29",
+          "destinationPort": 5,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              700
+            ],
+            [
+              1525,
+              700
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:29",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:50",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1935,
+              600
+            ],
+            [
+              2085,
+              600
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:50",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:51",
+          "destinationPort": 1,
+          "name": "State_SOGI_FED_PU_f32",
+          "labelWidth": 234.0,
+          "points": [
+            [
+              2165,
+              600
+            ],
+            [
+              2575,
+              600
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:52",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:53",
+          "destinationPort": 1,
+          "name": "Meas_SOGI_FED_PU_f32",
+          "labelWidth": 236.0,
+          "points": [
+            [
+              1715,
+              1240
+            ],
+            [
+              2105,
+              1240
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:54",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:38",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              920
+            ],
+            [
+              1525,
+              920
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:55",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:38",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              980
+            ],
+            [
+              1525,
+              980
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:56",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:38",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1475,
+              1040
+            ],
+            [
+              1525,
+              1040
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:38",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:57",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1935,
+              980
+            ],
+            [
+              2085,
+              980
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:57",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:58",
+          "destinationPort": 1,
+          "name": "State_SOGI_FEQ_PU_f32",
+          "labelWidth": 235.0,
+          "points": [
+            [
+              2165,
+              980
+            ],
+            [
+              2575,
+              980
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:59",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:60",
+          "destinationPort": 1,
+          "name": "Meas_SOGI_FEQ_PU_f32",
+          "labelWidth": 238.0,
+          "points": [
+            [
+              1715,
+              1360
+            ],
+            [
+              2105,
+              1360
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sogi_dual_output_filter_fe_discrete/Update_InPhase_State_FE",
+      "blocks": [
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:32",
+          "name": "Input_PU",
+          "type": "Inport",
+          "position": [
+            160,
+            150,
+            190,
+            170
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 87.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                195,
+                160
+              ],
+              "connectionPosition": [
+                195,
+                160
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:33",
+          "name": "D_Current_PU",
+          "type": "Inport",
+          "position": [
+            160,
+            270,
+            190,
+            290
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 133.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                195,
+                280
+              ],
+              "connectionPosition": [
+                195,
+                280
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:34",
+          "name": "Q_Current_PU",
+          "type": "Inport",
+          "position": [
+            160,
+            390,
+            190,
+            410
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 134.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                195,
+                400
+              ],
+              "connectionPosition": [
+                195,
+                400
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:35",
+          "name": "Gain_k",
+          "type": "Inport",
+          "position": [
+            160,
+            510,
+            190,
+            530
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 68.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                195,
+                520
+              ],
+              "connectionPosition": [
+                195,
+                520
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:36",
+          "name": "Frequency_Step",
+          "type": "Inport",
+          "position": [
+            160,
+            630,
+            190,
+            650
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 148.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                195,
+                640
+              ],
+              "connectionPosition": [
+                195,
+                640
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:72",
+          "name": "Input_Minus_D",
+          "type": "Sum",
+          "position": [
+            810,
+            220,
+            850,
+            260
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 136.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  795,
+                  230
+                ],
+                "connectionPosition": [
+                  805,
+                  230
+                ]
+              },
+              {
+                "position": [
+                  795,
+                  250
+                ],
+                "connectionPosition": [
+                  805,
+                  250
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                855,
+                240
+              ],
+              "connectionPosition": [
+                855,
+                240
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:62",
+          "name": "Publish_D",
+          "type": "Goto",
+          "position": [
+            350,
+            265,
+            470,
+            295
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 94.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                335,
+                280
+              ],
+              "connectionPosition": [
+                345,
+                280
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:64",
+          "name": "Publish_K",
+          "type": "Goto",
+          "position": [
+            350,
+            505,
+            470,
+            535
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 93.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                335,
+                520
+              ],
+              "connectionPosition": [
+                345,
+                520
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:63",
+          "name": "Publish_Q",
+          "type": "Goto",
+          "position": [
+            350,
+            385,
+            470,
+            415
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 95.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                335,
+                400
+              ],
+              "connectionPosition": [
+                345,
+                400
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:65",
+          "name": "Publish_R",
+          "type": "Goto",
+          "position": [
+            350,
+            625,
+            470,
+            655
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 94.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                335,
+                640
+              ],
+              "connectionPosition": [
+                345,
+                640
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:61",
+          "name": "Publish_U",
+          "type": "Goto",
+          "position": [
+            350,
+            145,
+            470,
+            175
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 94.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                335,
+                160
+              ],
+              "connectionPosition": [
+                345,
+                160
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:71",
+          "name": "Read_D_carry",
+          "type": "From",
+          "position": [
+            1490,
+            385,
+            1610,
+            415
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 131.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1615,
+                400
+              ],
+              "connectionPosition": [
+                1615,
+                400
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:67",
+          "name": "Read_D_d",
+          "type": "From",
+          "position": [
+            580,
+            235,
+            700,
+            265
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 99.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                705,
+                250
+              ],
+              "connectionPosition": [
+                705,
+                250
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:68",
+          "name": "Read_K_k",
+          "type": "From",
+          "position": [
+            820,
+            95,
+            940,
+            125
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 97.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                945,
+                110
+              ],
+              "connectionPosition": [
+                945,
+                110
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:69",
+          "name": "Read_Q_q",
+          "type": "From",
+          "position": [
+            1050,
+            375,
+            1170,
+            405
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 100.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1175,
+                390
+              ],
+              "connectionPosition": [
+                1175,
+                390
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:70",
+          "name": "Read_R_r",
+          "type": "From",
+          "position": [
+            1270,
+            85,
+            1390,
+            115
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 94.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                1395,
+                100
+              ],
+              "connectionPosition": [
+                1395,
+                100
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:66",
+          "name": "Read_U_u",
+          "type": "From",
+          "position": [
+            580,
+            195,
+            700,
+            225
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "off",
+          "namePlacement": "normal",
+          "textWidth": 99.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                705,
+                210
+              ],
+              "connectionPosition": [
+                705,
+                210
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:74",
+          "name": "Remove_Q_Feedback",
+          "type": "Sum",
+          "position": [
+            1260,
+            220,
+            1300,
+            260
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "alternate",
+          "textWidth": 199.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  1245,
+                  230
+                ],
+                "connectionPosition": [
+                  1255,
+                  230
+                ]
+              },
+              {
+                "position": [
+                  1245,
+                  250
+                ],
+                "connectionPosition": [
+                  1255,
+                  250
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1305,
+                240
+              ],
+              "connectionPosition": [
+                1305,
+                240
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:75",
+          "name": "Scale_D_Derivative",
+          "type": "Product",
+          "position": [
+            1460,
+            210,
+            1580,
+            270
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 176.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  1445,
+                  225
+                ],
+                "connectionPosition": [
+                  1455,
+                  225
+                ]
+              },
+              {
+                "position": [
+                  1445,
+                  255
+                ],
+                "connectionPosition": [
+                  1455,
+                  255
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1585,
+                240
+              ],
+              "connectionPosition": [
+                1585,
+                240
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:73",
+          "name": "Scale_Error_By_k",
+          "type": "Product",
+          "position": [
+            1010,
+            210,
+            1130,
+            270
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 162.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  995,
+                  225
+                ],
+                "connectionPosition": [
+                  1005,
+                  225
+                ]
+              },
+              {
+                "position": [
+                  995,
+                  255
+                ],
+                "connectionPosition": [
+                  1005,
+                  255
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1135,
+                240
+              ],
+              "connectionPosition": [
+                1135,
+                240
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:76",
+          "name": "Update_D_State",
+          "type": "Sum",
+          "position": [
+            1760,
+            240,
+            1800,
+            280
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 149.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  1745,
+                  250
+                ],
+                "connectionPosition": [
+                  1755,
+                  250
+                ]
+              },
+              {
+                "position": [
+                  1745,
+                  270
+                ],
+                "connectionPosition": [
+                  1755,
+                  270
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1805,
+                260
+              ],
+              "connectionPosition": [
+                1805,
+                260
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:37",
+          "name": "D_Next_PU",
+          "type": "Outport",
+          "position": [
+            2030,
+            250,
+            2060,
+            270
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 108.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                2015,
+                260
+              ],
+              "connectionPosition": [
+                2025,
+                260
+              ]
+            },
+            "Outport": []
+          }
+        }
+      ],
+      "annotations": {
+        "text": "Dnext = D + r*(k*(u-D)-Q); r = 2*pi*f0*Ts. All inputs are current-sample values.",
+        "position": [
+          140,
+          -160,
+          621,
+          -142
+        ]
+      },
+      "lines": [
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:32",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:61",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              195,
+              160
+            ],
+            [
+              345,
+              160
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:33",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:62",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              195,
+              280
+            ],
+            [
+              345,
+              280
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:34",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:63",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              195,
+              400
+            ],
+            [
+              345,
+              400
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:35",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:64",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              195,
+              520
+            ],
+            [
+              345,
+              520
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:36",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:65",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              195,
+              640
+            ],
+            [
+              345,
+              640
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:66",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:72",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              705,
+              210
+            ],
+            [
+              719,
+              210
+            ],
+            [
+              719,
+              230
+            ],
+            [
+              805,
+              230
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:67",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:72",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              705,
+              250
+            ],
+            [
+              805,
+              250
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:68",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:73",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              945,
+              110
+            ],
+            [
+              978,
+              110
+            ],
+            [
+              978,
+              225
+            ],
+            [
+              1005,
+              225
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:72",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:73",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              855,
+              240
+            ],
+            [
+              962,
+              240
+            ],
+            [
+              962,
+              255
+            ],
+            [
+              1005,
+              255
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:73",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:74",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1135,
+              240
+            ],
+            [
+              1195,
+              240
+            ],
+            [
+              1195,
+              230
+            ],
+            [
+              1255,
+              230
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:69",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:74",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1175,
+              390
+            ],
+            [
+              1177,
+              390
+            ],
+            [
+              1177,
+              250
+            ],
+            [
+              1255,
+              250
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:70",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:75",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1395,
+              100
+            ],
+            [
+              1428,
+              100
+            ],
+            [
+              1428,
+              225
+            ],
+            [
+              1455,
+              225
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:74",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:75",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1305,
+              240
+            ],
+            [
+              1412,
+              240
+            ],
+            [
+              1412,
+              255
+            ],
+            [
+              1455,
+              255
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:75",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:76",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1585,
+              240
+            ],
+            [
+              1661,
+              240
+            ],
+            [
+              1661,
+              250
+            ],
+            [
+              1755,
+              250
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:71",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:76",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1615,
+              400
+            ],
+            [
+              1661,
+              400
+            ],
+            [
+              1661,
+              270
+            ],
+            [
+              1755,
+              270
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:76",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:37",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1805,
+              260
+            ],
+            [
+              2025,
+              260
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sogi_dual_output_filter_fe_discrete/Update_Quadrature_State_FE",
+      "blocks": [
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:41",
+          "name": "Q_Current_PU",
+          "type": "Inport",
+          "position": [
+            180,
+            90,
+            210,
+            110
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 134.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                100
+              ],
+              "connectionPosition": [
+                215,
+                100
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:42",
+          "name": "D_Current_PU",
+          "type": "Inport",
+          "position": [
+            180,
+            240,
+            210,
+            260
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 133.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                250
+              ],
+              "connectionPosition": [
+                215,
+                250
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:43",
+          "name": "Frequency_Step",
+          "type": "Inport",
+          "position": [
+            180,
+            410,
+            210,
+            430
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 148.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                420
+              ],
+              "connectionPosition": [
+                215,
+                420
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:77",
+          "name": "Scale_D_For_Q",
+          "type": "Product",
+          "position": [
+            630,
+            230,
+            750,
+            290
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 145.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  615,
+                  245
+                ],
+                "connectionPosition": [
+                  625,
+                  245
+                ]
+              },
+              {
+                "position": [
+                  615,
+                  275
+                ],
+                "connectionPosition": [
+                  625,
+                  275
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                755,
+                260
+              ],
+              "connectionPosition": [
+                755,
+                260
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:78",
+          "name": "Update_Q_State",
+          "type": "Sum",
+          "position": [
+            1050,
+            190,
+            1090,
+            230
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 150.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  1035,
+                  200
+                ],
+                "connectionPosition": [
+                  1045,
+                  200
+                ]
+              },
+              {
+                "position": [
+                  1035,
+                  220
+                ],
+                "connectionPosition": [
+                  1045,
+                  220
+                ]
+              }
+            ],
+            "Outport": {
+              "position": [
+                1095,
+                210
+              ],
+              "connectionPosition": [
+                1095,
+                210
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_discrete:44",
+          "name": "Q_Next_PU",
+          "type": "Outport",
+          "position": [
+            1370,
+            200,
+            1400,
+            220
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 109.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1355,
+                210
+              ],
+              "connectionPosition": [
+                1365,
+                210
+              ]
+            },
+            "Outport": []
+          }
+        }
+      ],
+      "annotations": {
+        "text": "Qnext = Q + r*D; r = 2*pi*f0*Ts. Unit Delay storage is in the parent scope.",
+        "position": [
+          140,
+          -160,
+          594,
+          -142
+        ]
+      },
+      "lines": [
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:42",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:77",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              250
+            ],
+            [
+              339,
+              250
+            ],
+            [
+              339,
+              245
+            ],
+            [
+              625,
+              245
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:43",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:77",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              420
+            ],
+            [
+              463,
+              420
+            ],
+            [
+              463,
+              275
+            ],
+            [
+              625,
+              275
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:41",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:78",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              100
+            ],
+            [
+              871,
+              100
+            ],
+            [
+              871,
+              200
+            ],
+            [
+              1045,
+              200
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:77",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:78",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              755,
+              260
+            ],
+            [
+              871,
+              260
+            ],
+            [
+              871,
+              220
+            ],
+            [
+              1045,
+              220
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_discrete:78",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_discrete:44",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              1095,
+              210
+            ],
+            [
+              1365,
+              210
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sogi_dual_output_filter_fe_validation",
+      "blocks": [
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:1",
+          "name": "Voltage_Input_PU",
+          "type": "Inport",
+          "position": [
+            180,
+            100,
+            210,
+            120
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 163.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                110
+              ],
+              "connectionPosition": [
+                215,
+                110
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:2",
+          "name": "Voltage_Reset_States",
+          "type": "Inport",
+          "position": [
+            180,
+            160,
+            210,
+            180
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 198.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                170
+              ],
+              "connectionPosition": [
+                215,
+                170
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:3",
+          "name": "Voltage_F0_Hz",
+          "type": "Inport",
+          "position": [
+            180,
+            220,
+            210,
+            240
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 139.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                230
+              ],
+              "connectionPosition": [
+                215,
+                230
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:4",
+          "name": "Voltage_Gain_k",
+          "type": "Inport",
+          "position": [
+            180,
+            280,
+            210,
+            300
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 144.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                290
+              ],
+              "connectionPosition": [
+                215,
+                290
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:5",
+          "name": "Voltage_Period_Ts_s",
+          "type": "Inport",
+          "position": [
+            180,
+            340,
+            210,
+            360
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 191.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                350
+              ],
+              "connectionPosition": [
+                215,
+                350
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:9",
+          "name": "Current_Input_PU",
+          "type": "Inport",
+          "position": [
+            180,
+            710,
+            210,
+            730
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 162.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                720
+              ],
+              "connectionPosition": [
+                215,
+                720
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:10",
+          "name": "Current_Reset_States",
+          "type": "Inport",
+          "position": [
+            180,
+            770,
+            210,
+            790
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 197.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                780
+              ],
+              "connectionPosition": [
+                215,
+                780
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:11",
+          "name": "Current_F0_Hz",
+          "type": "Inport",
+          "position": [
+            180,
+            830,
+            210,
+            850
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 138.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                840
+              ],
+              "connectionPosition": [
+                215,
+                840
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:12",
+          "name": "Current_Gain_k",
+          "type": "Inport",
+          "position": [
+            180,
+            890,
+            210,
+            910
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 142.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                900
+              ],
+              "connectionPosition": [
+                215,
+                900
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:13",
+          "name": "Current_Period_Ts_s",
+          "type": "Inport",
+          "position": [
+            180,
+            950,
+            210,
+            970
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 189.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [],
+            "Outport": {
+              "position": [
+                215,
+                960
+              ],
+              "connectionPosition": [
+                215,
+                960
+              ]
+            }
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:14",
+          "name": "SOGI_DualOutput_Filter_FE_Current",
+          "type": "ModelReference",
+          "position": [
+            690,
+            690,
+            1360,
+            990
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 326.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  675,
+                  720
+                ],
+                "connectionPosition": [
+                  685,
+                  720
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  780
+                ],
+                "connectionPosition": [
+                  685,
+                  780
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  840
+                ],
+                "connectionPosition": [
+                  685,
+                  840
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  900
+                ],
+                "connectionPosition": [
+                  685,
+                  900
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  960
+                ],
+                "connectionPosition": [
+                  685,
+                  960
+                ]
+              }
+            ],
+            "Outport": [
+              {
+                "position": [
+                  1365,
+                  765
+                ],
+                "connectionPosition": [
+                  1365,
+                  765
+                ]
+              },
+              {
+                "position": [
+                  1365,
+                  915
+                ],
+                "connectionPosition": [
+                  1365,
+                  915
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:6",
+          "name": "SOGI_DualOutput_Filter_FE_Voltage",
+          "type": "ModelReference",
+          "position": [
+            690,
+            80,
+            1360,
+            380
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 327.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": [
+              {
+                "position": [
+                  675,
+                  110
+                ],
+                "connectionPosition": [
+                  685,
+                  110
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  170
+                ],
+                "connectionPosition": [
+                  685,
+                  170
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  230
+                ],
+                "connectionPosition": [
+                  685,
+                  230
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  290
+                ],
+                "connectionPosition": [
+                  685,
+                  290
+                ]
+              },
+              {
+                "position": [
+                  675,
+                  350
+                ],
+                "connectionPosition": [
+                  685,
+                  350
+                ]
+              }
+            ],
+            "Outport": [
+              {
+                "position": [
+                  1365,
+                  155
+                ],
+                "connectionPosition": [
+                  1365,
+                  155
+                ]
+              },
+              {
+                "position": [
+                  1365,
+                  305
+                ],
+                "connectionPosition": [
+                  1365,
+                  305
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:7",
+          "name": "Voltage_InPhase_D_PU",
+          "type": "Outport",
+          "position": [
+            1920,
+            150,
+            1950,
+            170
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 215.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1905,
+                160
+              ],
+              "connectionPosition": [
+                1915,
+                160
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:8",
+          "name": "Voltage_Quadrature_Q_PU",
+          "type": "Outport",
+          "position": [
+            1920,
+            300,
+            1950,
+            320
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 243.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1905,
+                310
+              ],
+              "connectionPosition": [
+                1915,
+                310
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:15",
+          "name": "Current_InPhase_D_PU",
+          "type": "Outport",
+          "position": [
+            1920,
+            760,
+            1950,
+            780
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 214.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1905,
+                770
+              ],
+              "connectionPosition": [
+                1915,
+                770
+              ]
+            },
+            "Outport": []
+          }
+        },
+        {
+          "sid": "sogi_dual_output_filter_fe_validation:16",
+          "name": "Current_Quadrature_Q_PU",
+          "type": "Outport",
+          "position": [
+            1920,
+            910,
+            1950,
+            930
+          ],
+          "fontName": "Arial",
+          "fontSize": 14,
+          "showName": "on",
+          "namePlacement": "normal",
+          "textWidth": 242.0,
+          "textHeight": 24.0,
+          "ports": {
+            "Inport": {
+              "position": [
+                1905,
+                920
+              ],
+              "connectionPosition": [
+                1915,
+                920
+              ]
+            },
+            "Outport": []
+          }
+        }
+      ],
+      "annotations": {
+        "text": "Two simultaneous FE filter instances | Voltage and Current\nSeparate signal, reset and f0/k/Ts inputs; independent state.\nRun run_sogi_fe_model_validation for validated, frozen input snapshots.",
+        "position": [
+          140,
+          -160,
+          589,
+          -110
+        ]
+      },
+      "lines": [
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:1",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:6",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              110
+            ],
+            [
+              685,
+              110
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:2",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:6",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              170
+            ],
+            [
+              685,
+              170
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:3",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:6",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              230
+            ],
+            [
+              685,
+              230
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:4",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:6",
+          "destinationPort": 4,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              290
+            ],
+            [
+              685,
+              290
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:5",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:6",
+          "destinationPort": 5,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              350
+            ],
+            [
+              685,
+              350
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:6",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:7",
+          "destinationPort": 1,
+          "name": "Voltage_D_PU",
+          "labelWidth": 134.0,
+          "points": [
+            [
+              1365,
+              155
+            ],
+            [
+              1725,
+              155
+            ],
+            [
+              1725,
+              160
+            ],
+            [
+              1915,
+              160
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:6",
+          "sourcePort": 2,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:8",
+          "destinationPort": 1,
+          "name": "Voltage_Q_PU",
+          "labelWidth": 135.0,
+          "points": [
+            [
+              1365,
+              305
+            ],
+            [
+              1545,
+              305
+            ],
+            [
+              1545,
+              310
+            ],
+            [
+              1915,
+              310
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:9",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:14",
+          "destinationPort": 1,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              720
+            ],
+            [
+              685,
+              720
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:10",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:14",
+          "destinationPort": 2,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              780
+            ],
+            [
+              685,
+              780
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:11",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:14",
+          "destinationPort": 3,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              840
+            ],
+            [
+              685,
+              840
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:12",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:14",
+          "destinationPort": 4,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              900
+            ],
+            [
+              685,
+              900
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:13",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:14",
+          "destinationPort": 5,
+          "name": "",
+          "labelWidth": 0,
+          "points": [
+            [
+              215,
+              960
+            ],
+            [
+              685,
+              960
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:14",
+          "sourcePort": 1,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:15",
+          "destinationPort": 1,
+          "name": "Current_D_PU",
+          "labelWidth": 133.0,
+          "points": [
+            [
+              1365,
+              765
+            ],
+            [
+              1725,
+              765
+            ],
+            [
+              1725,
+              770
+            ],
+            [
+              1915,
+              770
+            ]
+          ]
+        },
+        {
+          "sourceSid": "sogi_dual_output_filter_fe_validation:14",
+          "sourcePort": 2,
+          "destinationSid": "sogi_dual_output_filter_fe_validation:16",
+          "destinationPort": 1,
+          "name": "Current_Q_PU",
+          "labelWidth": 134.0,
+          "points": [
+            [
+              1365,
+              915
+            ],
+            [
+              1545,
+              915
+            ],
+            [
+              1545,
+              920
+            ],
+            [
+              1915,
+              920
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "fontMeasurement": {
+    "engine": "System.Drawing",
+    "dpiX": 96.0,
+    "dpiY": 96.0,
+    "fontUnit": "Point",
+    "note": "Conservative measured text envelope; line label placement still requires visual review."
+  }
+}

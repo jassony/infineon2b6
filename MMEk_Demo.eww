@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\IAR\cm0plus\MMEk_Demo_CM0PLUS.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\IAR\cm0plus_boot\MMEk_Demo_CM0PLUS_Boot.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\IAR\cm0plus_cm4\MMEk_Demo_CM0PLUS_CM4_FOC.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\IAR\cm4_mc\MMEk_Demo_CM4_FOC.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

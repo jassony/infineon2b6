@@ -1,0 +1,4 @@
+interface:
+  display_name: "MATLAB 状态空间离散化"
+  short_description: "连续状态方程离散化、矩阵化简、初态映射和频时域验证，输出状态递推"
+  default_prompt: "使用 $matlab-discretize-state-space，对给定连续状态方程选择离散化方式，推导 Ad/Bd/Cd/Dd 和初态映射，进行伯德图与逐拍验证，输出参数化离散状态递推。"

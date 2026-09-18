@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifxmlcfg version="2.6.2">
+    <checksum>c058e568f16135be89959f5e6de8e7a4caac12c5a88936b035a3abcfddb99612</checksum>
+    <version label="V1.0.6"/>
+    <header file="Ifx_MHA_PatternGen_Cfg.h" fullname="1"/>
+    <!--********************************************************************************-->
+    <!--                        Pattern Generator                                       -->
+    <!--********************************************************************************-->
+    <groupcontainer label="Pattern Generator" desc="Pattern Generator Parameters">
+        <treecontainer headerlabels="Structure;Settings;" columnwidths="450;150">
+
+            <checkbox label="Use module" define="IFX_MHA_PATTERNGEN_CFG.ENABLE" svd="0" expand="1" uielement="branch" default="1" lockon="IFX_MHA_PATTERNGEN_CFG.ENABLE_FAULT_OUT=0">
+
+                <spinbox label="Minimum dead time" suffix=" ns" define="IFX_MHA_PATTERNGEN_CFG.MIN_DEADTIME_NS" header="Ifx_MHA_PatternGen_Cfg.h" svd="0" default="0" tooltip="deadTimeMinimum">
+                    <action event="changed" cmd="setDef" data="IFX_MHA_PATTERNGEN_CFG.DEADTIME_NS.min=IFX_MHA_PATTERNGEN_CFG.MIN_DEADTIME_NS"/>
+                </spinbox>
+
+                <math define="IFX_MHA_PATTERNGEN_CFG.MIN_DEADTIME_US" svd="0" formula="IFX_MHA_PATTERNGEN_CFG.MIN_DEADTIME_NS/1000" visible="false"/>
+
+                <spinbox label="Dead time" suffix=" ns" define="IFX_MHA_PATTERNGEN_CFG.DEADTIME_NS" header="Ifx_MHA_PatternGen_Cfg.h" svd="0" default="1500"/>
+
+                <math define="IFX_MHA_PATTERNGEN_CFG.DEADTIME_US" svd="0" formula="IFX_MHA_PATTERNGEN_CFG.DEADTIME_NS/1000" visible="false"/>
+
+                <math define="IFX_MHA_PATTERNGEN_CFG.DEADTIME_FINAL_US" svd="0" formula="IFX_MHA_PATTERNGEN_CFG.DEADTIME_US &gt; IFX_MHA_PATTERNGEN_CFG.MIN_DEADTIME_US ? IFX_MHA_PATTERNGEN_CFG.DEADTIME_US : IFX_MHA_PATTERNGEN_CFG.MIN_DEADTIME_US" visible="false"/>
+
+                <math label="Dead time" unit=" ticks" define="IFX_MHA_PATTERNGEN_CFG.DEADTIME_TICKS" header="Ifx_MHA_PatternGen_Cfg.h" svd="0" formula="floor(IFX_MHA_PATTERNGEN_CFG.DEADTIME_FINAL_US*IFX_MHA_PATTERNGEN_CFG.F_SYS_MHZ)" visible="true"/>
+
+                <!-- set the maximum deadtime -->
+                <math define="IFX_MHA_PATTERNGEN_CFG.MAX_DEADTIME_NS" unit=" ns" formula="(255*1000/IFX_MHA_PATTERNGEN_CFG.F_SYS_MHZ)" svd="0" visible="false">
+                    <action event="changed" cmd="setDef" data="IFX_MHA_PATTERNGEN_CFG.DEADTIME_NS.max=IFX_MHA_PATTERNGEN_CFG.MAX_DEADTIME_NS"/>
+                    <action event="changed" cmd="setDef" data="IFX_MHA_PATTERNGEN_CFG.DEADTIME_NS.min=0"/>
+                </math>
+
+                <spinbox label="Timer clock frequency" suffix=" MHz" define="IFX_MHA_PATTERNGEN_CFG.F_SYS_MHZ" default="80" visible="true"/>
+
+                <spinbox label="PWM frequency" suffix=" kHz" define="IFX_MHA_PATTERNGEN_CFG.FREQUENCY_KHZ" header="Ifx_MHA_PatternGen_Cfg.h" svd="0" default="20" range="0;40"/>
+
+                <!-- Current loop execution -->
+                <spinbox label="Current loop factor" define="IFX_MHA_PATTERNGEN_CFG.CURRENT_LOOP_FACTOR"  svd="0" default="1" range="1;25" header="Ifx_MHA_PatternGen_Cfg.h" tooltip="currentLoopFactor"/>
+
+                <math label="Current loop frequency"  unit=" Hz" define="IFX_MHA_PATTERNGEN_CFG.CURRENT_LOOP_FREQUENCY_HZ" formula="floor(IFX_MHA_PATTERNGEN_CFG.FREQUENCY_KHZ*1000/IFX_MHA_PATTERNGEN_CFG.CURRENT_LOOP_FACTOR)" svd="0" />
+
+                <math label="Current loop period" unit=" us" define="IFX_MHA_PATTERNGEN_CFG.CURRENT_LOOP_PERIOD_US" format="%f" formula="floor(1000000/IFX_MHA_PATTERNGEN_CFG.CURRENT_LOOP_FREQUENCY_HZ)" svd="0" />
+
+                <combo label="Type" define="IFX_MHA_PATTERNGEN_CFG.FAULT_OUT_BEHAVIOR" header="Ifx_MHA_PatternGen_Cfg.h" svd="0" default="label=Uncontrolled freewheeling OFF">
+                    <item label="Uncontrolled freewheeling OFF" value="0"/>
+                </combo>
+
+                <checkbox label="Enable fault user callback" define="IFX_MHA_PATTERNGEN_CFG.ENABLE_FAULT_OUT" uielement="branch" svd="0" header="Ifx_MHA_PatternGen_Cfg.h">
+                    <edit label="Fault user callback" define="IFX_MHA_PATTERNGEN_CFG.FAULT_OUT" default="usrFaultCallback" header="Ifx_MHA_PatternGen_Cfg.h" svd="0" tooltip="faultUserCallBack"/>
+                </checkbox>
+            </checkbox>
+
+        </treecontainer>
+
+    </groupcontainer>
+</ifxmlcfg>

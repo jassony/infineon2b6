@@ -1,0 +1,142 @@
+--- a/Example/CM4_FOC/main_cm4.c
++++ b/Example/CM4_FOC/main_cm4.c
+@@ -26,6 +26,7 @@
+ #include "../../xcp/xcp_cal_m4.h"
+ #include "../../IdMap_codegen/id_map_q15_adapter.h"
+ #include "../../KRE_codegen/external_observer_manager.h"
++#include "../../HFIPD_codegen/hfipd_injection.h"
+ #include "../../ADRC_codegen/adrc_speed_controller_adapter.h"
+ #include "../../APSFSM_codegen/apsfsm_torque_compensation_adapter.h"
+ #include "../../RRC_DOB_codegen/rrc_dob_compensator.h"
+@@ -476,6 +477,7 @@
+     uint8_t fwcControlEligible;
+     static uint8 directClosedLoopStartPending = 0u;
+     static uint16 startupAlignmentDuration = 0u;
++    Ifx_MS_FocSolutionF16_State stateBeforeSpeed;
+ 
+ #if (MCU_LOAD_PROFILER_ENABLE != 0u)
+     speedLoopProfilerToken = McuLoadProfiler_begin();
+@@ -495,6 +497,7 @@
+      * the selected CAN/XCP command here so start, stop, and speed updates do
+      * not depend on foreground service time while KRE is running. */
+     FocLatchCommandAtSpeedBoundary();
++    stateBeforeSpeed = FocDemoClosedLoop.p_status.state;
+ 
+     /* A startup session is valid only while FOC is actually running. Abort it
+      * on every stop, fault/recovery, or standby interval so the next run
+@@ -524,6 +527,26 @@
+          * FOC run rather than consuming positioning time here. */
+         Ifx_MS_FocSolutionF16_enableOpenLoopDqReference(&FocDemoClosedLoop, false);
+     }
++    else if (HFIPDInjection_isActive() != 0u)
++    {
++        /* Identification owns voltage before any alignment tick. Consume its
++         * result once at 2 kHz. Invalid/disabled results never write an angle.
++         * The following speed tick begins the original positioning ramp. */
++        alignmentDqReference.real = 0;
++        alignmentDqReference.imag = 0;
++        Ifx_MS_FocSolutionF16_setOpenLoopDqReference(&FocDemoClosedLoop, alignmentDqReference);
++        Ifx_MS_FocSolutionF16_enableOpenLoopDqReference(&FocDemoClosedLoop, true);
++        if (HFIPDInjection_isComplete() != 0u)
++        {
++            uint32 initialAngle;
++            if (HFIPDInjection_consume(&initialAngle) != 0u)
++            {
++                Ifx_MDA_IToFControllerF16_setAnglePreviousValue(
++                    &FocDemoClosedLoop.iToF, initialAngle);
++                FocDemoClosedLoop.angle = initialAngle;
++            }
++        }
++    }
+     else if (rotorAlignCounter != 0u)
+     {
+         /* Position with the original start-to-target ramp. This is the only
+@@ -625,6 +648,19 @@
+     /* Execute speed control */
+     Ifx_MS_FocSolutionF16_executeSpeedControl(&FocDemoClosedLoop, referenceSpeedQ15,
+         effectiveCurrentsDqReference);
++    /* The transition and parameter capture are atomic with respect to fast
++     * execution: both callbacks have the same preemption priority. Begin only
++     * on the stopped->run edge, before its first fast control sample. */
++    if ((FocDemoClosedLoop.p_status.state != Ifx_MS_FocSolutionF16_State_run)
++        || (FocDemoClosedLoop.p_status.actualControlMode != Ifx_MS_FocSolutionF16_ControlMode_foc)
++        || (enableControl == 0u) || (enablePowerStage == 0u))
++    {
++        HFIPDInjection_cancel();
++    }
++    else if (stateBeforeSpeed != Ifx_MS_FocSolutionF16_State_run)
++    {
++        HFIPDInjection_begin();
++    }
+     FocApplyApsfsmTorqueCompensation();
+     if ((fwcOutput.active != 0u) && (FocFwcControlIsEligible() != false))
+     {
+--- a/MS/src/Ifx_MS_FocSolutionF16.c
++++ b/MS/src/Ifx_MS_FocSolutionF16.c
+@@ -18,7 +18,12 @@
+ #include "../../FWC_codegen/fwc_q15_adapter.h"
+ #include "../../M4_BSW/SOURCE/ld_task/inc/mcu_load_profiler.h"
+ #include "../../Utilities/no_opt.h"
++#include "../../HFIPD_codegen/hfipd_injection.h"
+ 
++#if IFX_MS_FOCSOLUTIONF16_CFG_SAMPLING_TIME_US != 50
++#error "HFIPD requires the validated 50 us fast-loop schedule"
++#endif
++
+ #include <math.h>
+ 
+ #include "Ifx_Math_Abs.h"
+@@ -747,6 +752,33 @@
+     measurementADCOutput = Ifx_MS_FocSolutionF16_measureAndReconstruct(self);
+     MCU_FAST_MARK(MCU_FAST_ADC);
+ 
++    if ((HFIPDInjection_isActive() != 0u)
++        && (self->p_status.state == Ifx_MS_FocSolutionF16_State_run)
++        && (self->p_status.actualControlMode == Ifx_MS_FocSolutionF16_ControlMode_foc))
++    {
++        float injectionV;
++        uint32 injectionAngle;
++        /* Current/voltage SI conversion belongs at this boundary. The voltage
++         * budget is the SVPWM linear limit Vdc/sqrt(3). No PI/observer step is
++         * run while stationary identification owns the applied voltage. */
++        HFIPDInjection_execute(
++            (float)self->currentsAlphaBeta.real * ((float)IFX_MS_FOCSOLUTIONF16_BASE_CURRENT_A / 32768.0F),
++            (float)self->currentsAlphaBeta.imag * ((float)IFX_MS_FOCSOLUTIONF16_BASE_CURRENT_A / 32768.0F),
++            (self->modulator.p_forceDutyEnable != false) ? 0.0F
++                : (float)measurementADCOutput.dcLinkVoltageQ15
++                    * ((float)IFX_MS_FOCSOLUTIONF16_BASE_VOLTAGE_V / 32768.0F) * 0.577350269F,
++            &injectionV, &injectionAngle);
++        voltageCommandPolar.amplitude = (Ifx_Math_Fract16)(fabsf(injectionV)
++            * (32768.0F / (float)IFX_MS_FOCSOLUTIONF16_BASE_VOLTAGE_V));
++        voltageCommandPolar.angle = injectionAngle
++            + ((injectionV < 0.0F) ? 0x80000000u : 0u);
++        self->dqCommand.real = 0;
++        self->dqCommand.imag = 0;
++        MCU_FAST_MARK(MCU_FAST_CTRL);
++        Ifx_MS_FocSolutionF16_voltageGeneration(self, voltageCommandPolar, measurementADCOutput);
++        return;
++    }
++
+     /* Exactly one selected estimator executes in the fast loop. */
+     estimatedAngle = Ifx_MS_FocSolutionF16_estimatePositionAndSpeed(self);
+     MCU_FAST_MARK(MCU_FAST_OBS);
+@@ -1214,7 +1246,8 @@
+         && ((hfiEnabled == false) || (HfiInjection_isOutputActive() == false))
+         && (Cal_RRCDOB_Sel_u8 == RRCDOB_SELECTOR_OFF)
+         && (self->modulator.p_forceDutyEnable == false));
++    bool kreFocAllowed = ((HFIPDInjection_isActive() == 0u)
++                           && ((self->p_status.state == Ifx_MS_FocSolutionF16_State_run)
+-    bool kreFocAllowed = (((self->p_status.state == Ifx_MS_FocSolutionF16_State_run)
+                            || (self->p_status.state == Ifx_MS_FocSolutionF16_State_rampDown))
+                            && (self->p_status.actualControlMode == Ifx_MS_FocSolutionF16_ControlMode_foc)
+                            && (IFX_MS_FOCSOLUTIONF16_KRE_RUNTIME_ENABLED != 0u));
+@@ -1868,7 +1901,8 @@
+     {
+         /* A high-load requested stop bypasses the speed ramp immediately. */
+         self->p_directClosedLoopHandoffActive = false;
++        nextState = ((HFIPDInjection_isActive() != 0u)
++            || Ifx_MS_FocSolutionF16_stopCurrentExceeded(self))
+-        nextState = Ifx_MS_FocSolutionF16_stopCurrentExceeded(self)
+             ? Ifx_MS_FocSolutionF16_State_standBy
+             : Ifx_MS_FocSolutionF16_State_rampDown;
+     }

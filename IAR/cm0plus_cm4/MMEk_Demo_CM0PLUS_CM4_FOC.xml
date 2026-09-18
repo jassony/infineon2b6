@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sessionSetup><partner><name>Partner0</name><workspace>$WS_PATH$</workspace><project>$PROJ_PATH$</project><config>Multi Motor Evalkit V1.0</config><numberOfCores>1</numberOfCores></partner><partner><name>Partner1</name><workspace>$WS_DIR$\MMEk_Demo.eww</workspace><project>MMEk_Demo_CM4_FOC</project><config>Multi Motor Evalkit V1.0</config><numberOfCores>1</numberOfCores><attachToRunningTarget>true</attachToRunningTarget></partner></sessionSetup>

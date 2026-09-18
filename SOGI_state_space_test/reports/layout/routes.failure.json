@@ -1,0 +1,97 @@
+{
+  "status": "FAIL",
+  "input": "D:\\A_PRJ\\infineon3in1\\code_xcp\\SOGI_state_space_test\\reports\\layout\\route_input.json",
+  "message": "sogi_dual_output_filter_fe_discrete: routing failed in all 3 orderings",
+  "details": {
+    "scope": "sogi_dual_output_filter_fe_discrete",
+    "attempts": [
+      {
+        "routingOrder": "short_local_first",
+        "line": "Read_Period_Ts_frt.y1 -> Compute_Frequency_Step.u2",
+        "source": [
+          725,
+          420
+        ],
+        "target": [
+          735,
+          365
+        ],
+        "routedBeforeFailure": 8,
+        "message": "Insufficient horizontal space for the named first segment and final port stub",
+        "details": {
+          "source": [
+            725,
+            420
+          ],
+          "target": [
+            735,
+            365
+          ],
+          "available": 10,
+          "requiredFirstRun": 10,
+          "requiredLastRun": 10,
+          "suggestion": "Move the destination column right or shorten the reviewed signal display label."
+        }
+      },
+      {
+        "routingOrder": "named_constrained_first",
+        "line": "Read_Period_Ts_frt.y1 -> Compute_Frequency_Step.u2",
+        "source": [
+          725,
+          420
+        ],
+        "target": [
+          735,
+          365
+        ],
+        "routedBeforeFailure": 4,
+        "message": "Insufficient horizontal space for the named first segment and final port stub",
+        "details": {
+          "source": [
+            725,
+            420
+          ],
+          "target": [
+            735,
+            365
+          ],
+          "available": 10,
+          "requiredFirstRun": 10,
+          "requiredLastRun": 10,
+          "suggestion": "Move the destination column right or shorten the reviewed signal display label."
+        }
+      },
+      {
+        "routingOrder": "source_row_first",
+        "line": "Read_Period_Ts_frt.y1 -> Compute_Frequency_Step.u2",
+        "source": [
+          725,
+          420
+        ],
+        "target": [
+          735,
+          365
+        ],
+        "routedBeforeFailure": 5,
+        "message": "Insufficient horizontal space for the named first segment and final port stub",
+        "details": {
+          "source": [
+            725,
+            420
+          ],
+          "target": [
+            735,
+            365
+          ],
+          "available": 10,
+          "requiredFirstRun": 10,
+          "requiredLastRun": 10,
+          "suggestion": "Move the destination column right or shorten the reviewed signal display label."
+        }
+      }
+    ]
+  },
+  "successfulScopes": [],
+  "outputWasWritten": false,
+  "warning": "Any pre-existing routes output is stale and must not be applied."
+}

@@ -1,0 +1,5928 @@
+[
+  {
+    "scope": "sogi_discrete_comparison",
+    "lines": [
+      {
+        "sourceSid": "sogi_discrete_comparison:223",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:12",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            805,
+            825
+          ],
+          [
+            935,
+            825
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:224",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:12",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            805,
+            915
+          ],
+          [
+            935,
+            915
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:225",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:21",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            805,
+            1125
+          ],
+          [
+            935,
+            1125
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:226",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:21",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            805,
+            1215
+          ],
+          [
+            935,
+            1215
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:227",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:30",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            805,
+            1425
+          ],
+          [
+            935,
+            1425
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:228",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:30",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            805,
+            1515
+          ],
+          [
+            935,
+            1515
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:221",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:3",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            805,
+            425
+          ],
+          [
+            824,
+            425
+          ],
+          [
+            824,
+            420
+          ],
+          [
+            935,
+            420
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:222",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:3",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            805,
+            475
+          ],
+          [
+            824,
+            475
+          ],
+          [
+            824,
+            470
+          ],
+          [
+            935,
+            470
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:278",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:3",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            805,
+            525
+          ],
+          [
+            824,
+            525
+          ],
+          [
+            824,
+            520
+          ],
+          [
+            935,
+            520
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:281",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:3",
+        "destinationPort": 4,
+        "name": "",
+        "points": [
+          [
+            805,
+            575
+          ],
+          [
+            824,
+            575
+          ],
+          [
+            824,
+            570
+          ],
+          [
+            935,
+            570
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:284",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:3",
+        "destinationPort": 5,
+        "name": "",
+        "points": [
+          [
+            805,
+            625
+          ],
+          [
+            824,
+            625
+          ],
+          [
+            824,
+            620
+          ],
+          [
+            935,
+            620
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:1",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:219",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            185,
+            400
+          ],
+          [
+            204,
+            400
+          ],
+          [
+            204,
+            405
+          ],
+          [
+            375,
+            405
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:2",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:220",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            185,
+            500
+          ],
+          [
+            204,
+            500
+          ],
+          [
+            204,
+            505
+          ],
+          [
+            375,
+            505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:276",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:277",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            185,
+            600
+          ],
+          [
+            204,
+            600
+          ],
+          [
+            204,
+            605
+          ],
+          [
+            375,
+            605
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:279",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:280",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            185,
+            700
+          ],
+          [
+            204,
+            700
+          ],
+          [
+            204,
+            705
+          ],
+          [
+            375,
+            705
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:282",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:283",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            185,
+            800
+          ],
+          [
+            204,
+            800
+          ],
+          [
+            204,
+            805
+          ],
+          [
+            375,
+            805
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:3",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:10",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_FED_PU_f32",
+        "points": [
+          [
+            1335,
+            460
+          ],
+          [
+            1665,
+            460
+          ]
+        ],
+        "labelWidth": 172,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:3",
+        "sourcePort": 2,
+        "destinationSid": "sogi_discrete_comparison:11",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_FEQ_PU_f32",
+        "points": [
+          [
+            1335,
+            580
+          ],
+          [
+            1665,
+            580
+          ]
+        ],
+        "labelWidth": 173,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:12",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:19",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_BED_PU_f32",
+        "points": [
+          [
+            1245,
+            825
+          ],
+          [
+            1445,
+            825
+          ],
+          [
+            1445,
+            830
+          ],
+          [
+            1665,
+            830
+          ]
+        ],
+        "labelWidth": 173,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:12",
+        "sourcePort": 2,
+        "destinationSid": "sogi_discrete_comparison:20",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_BEQ_PU_f32",
+        "points": [
+          [
+            1245,
+            915
+          ],
+          [
+            1445,
+            915
+          ],
+          [
+            1445,
+            910
+          ],
+          [
+            1665,
+            910
+          ]
+        ],
+        "labelWidth": 173,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:21",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:28",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_TustinD_PU_f32",
+        "points": [
+          [
+            1245,
+            1125
+          ],
+          [
+            1465,
+            1125
+          ],
+          [
+            1465,
+            1130
+          ],
+          [
+            1665,
+            1130
+          ]
+        ],
+        "labelWidth": 192,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:21",
+        "sourcePort": 2,
+        "destinationSid": "sogi_discrete_comparison:29",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_TustinQ_PU_f32",
+        "points": [
+          [
+            1245,
+            1215
+          ],
+          [
+            1465,
+            1215
+          ],
+          [
+            1465,
+            1210
+          ],
+          [
+            1665,
+            1210
+          ]
+        ],
+        "labelWidth": 193,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:30",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:37",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_ZOHD_PU_f32",
+        "points": [
+          [
+            1245,
+            1425
+          ],
+          [
+            1455.0,
+            1425
+          ],
+          [
+            1455.0,
+            1430
+          ],
+          [
+            1665,
+            1430
+          ]
+        ],
+        "labelWidth": 183,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:30",
+        "sourcePort": 2,
+        "destinationSid": "sogi_discrete_comparison:38",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_ZOHQ_PU_f32",
+        "points": [
+          [
+            1245,
+            1515
+          ],
+          [
+            1455.0,
+            1515
+          ],
+          [
+            1455.0,
+            1510
+          ],
+          [
+            1665,
+            1510
+          ]
+        ],
+        "labelWidth": 184,
+        "labelHeight": 19
+      }
+    ]
+  },
+  {
+    "scope": "sogi_discrete_comparison/SOGI_DualOutput_Filter_FE",
+    "lines": [
+      {
+        "sourceSid": "sogi_discrete_comparison:40",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:127",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            605,
+            570
+          ],
+          [
+            615,
+            570
+          ],
+          [
+            615,
+            575
+          ],
+          [
+            635,
+            575
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:255",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:263",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            685,
+            210
+          ],
+          [
+            699,
+            210
+          ],
+          [
+            699,
+            215
+          ],
+          [
+            735,
+            215
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:145",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:40",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            405,
+            575
+          ],
+          [
+            424,
+            575
+          ],
+          [
+            424,
+            570
+          ],
+          [
+            475,
+            570
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:272",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:258",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1725,
+            975
+          ],
+          [
+            1735,
+            975
+          ],
+          [
+            1735,
+            1020
+          ],
+          [
+            1755,
+            1020
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:267",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:258",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1725,
+            1105
+          ],
+          [
+            1735,
+            1105
+          ],
+          [
+            1735,
+            1040
+          ],
+          [
+            1755,
+            1040
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:39",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:131",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            175,
+            900
+          ],
+          [
+            185.5,
+            900
+          ],
+          [
+            185.5,
+            895
+          ],
+          [
+            275,
+            895
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:260",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:257",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1655,
+            650
+          ],
+          [
+            1675,
+            650
+          ],
+          [
+            1675,
+            660
+          ],
+          [
+            1755,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:273",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:8",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            3285,
+            655
+          ],
+          [
+            3304,
+            655
+          ],
+          [
+            3304,
+            650
+          ],
+          [
+            3395,
+            650
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:274",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:9",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            3285,
+            1035
+          ],
+          [
+            3304,
+            1035
+          ],
+          [
+            3304,
+            1030
+          ],
+          [
+            3395,
+            1030
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:144",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:40",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            405,
+            495
+          ],
+          [
+            424,
+            495
+          ],
+          [
+            424,
+            545
+          ],
+          [
+            475,
+            545
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:259",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:256",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1145,
+            650
+          ],
+          [
+            1165,
+            650
+          ],
+          [
+            1165,
+            660
+          ],
+          [
+            1255,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:261",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:43",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2125,
+            650
+          ],
+          [
+            2255,
+            650
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:262",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:44",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2125,
+            1030
+          ],
+          [
+            2255,
+            1030
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:265",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:256",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1225,
+            535
+          ],
+          [
+            1235,
+            535
+          ],
+          [
+            1235,
+            640
+          ],
+          [
+            1255,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:266",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:257",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1725,
+            535
+          ],
+          [
+            1735,
+            535
+          ],
+          [
+            1735,
+            640
+          ],
+          [
+            1755,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:254",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:255",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            425,
+            180
+          ],
+          [
+            444,
+            180
+          ],
+          [
+            444,
+            200
+          ],
+          [
+            555,
+            200
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:7",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:130",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            125,
+            790
+          ],
+          [
+            144,
+            790
+          ],
+          [
+            144,
+            795
+          ],
+          [
+            275,
+            795
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:251",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:254",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            125,
+            180
+          ],
+          [
+            295,
+            180
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:268",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:259",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            945,
+            615
+          ],
+          [
+            964,
+            615
+          ],
+          [
+            964,
+            640
+          ],
+          [
+            1095,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:257",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:261",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1885,
+            650
+          ],
+          [
+            1904,
+            650
+          ],
+          [
+            1904,
+            640
+          ],
+          [
+            2075,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:258",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:262",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1885,
+            1030
+          ],
+          [
+            1904,
+            1030
+          ],
+          [
+            1904,
+            1020
+          ],
+          [
+            2075,
+            1020
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:269",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:259",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            945,
+            715
+          ],
+          [
+            964,
+            715
+          ],
+          [
+            964,
+            660
+          ],
+          [
+            1095,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:147",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:41",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            2485,
+            535
+          ],
+          [
+            2504,
+            535
+          ],
+          [
+            2504,
+            650
+          ],
+          [
+            2585,
+            650
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:271",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:261",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1945,
+            745
+          ],
+          [
+            1964,
+            745
+          ],
+          [
+            1964,
+            660
+          ],
+          [
+            2075,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:149",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:42",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            2485,
+            915
+          ],
+          [
+            2504,
+            915
+          ],
+          [
+            2504,
+            1030
+          ],
+          [
+            2585,
+            1030
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:275",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:262",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1945,
+            1125
+          ],
+          [
+            1964,
+            1125
+          ],
+          [
+            1964,
+            1040
+          ],
+          [
+            2075,
+            1040
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:270",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:260",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1465,
+            745
+          ],
+          [
+            1485,
+            745
+          ],
+          [
+            1485,
+            660
+          ],
+          [
+            1605,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:256",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:260",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1385,
+            650
+          ],
+          [
+            1405,
+            650
+          ],
+          [
+            1405,
+            640
+          ],
+          [
+            1605,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:41",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:128",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_FEX1_PU_f32",
+        "points": [
+          [
+            2715,
+            650
+          ],
+          [
+            2915,
+            650
+          ],
+          [
+            2915,
+            655
+          ],
+          [
+            2955,
+            655
+          ]
+        ],
+        "labelWidth": 179,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:42",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:129",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_FEX2_PU_f32",
+        "points": [
+          [
+            2715,
+            1030
+          ],
+          [
+            2915,
+            1030
+          ],
+          [
+            2915,
+            1035
+          ],
+          [
+            2955,
+            1035
+          ]
+        ],
+        "labelWidth": 179,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:146",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:41",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2485,
+            475
+          ],
+          [
+            2525,
+            475
+          ],
+          [
+            2525,
+            625
+          ],
+          [
+            2585,
+            625
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:148",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:42",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2485,
+            855
+          ],
+          [
+            2525,
+            855
+          ],
+          [
+            2525,
+            1005
+          ],
+          [
+            2585,
+            1005
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:43",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:41",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            2335,
+            650
+          ],
+          [
+            2375,
+            650
+          ],
+          [
+            2375,
+            675
+          ],
+          [
+            2585,
+            675
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:44",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:42",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            2335,
+            1030
+          ],
+          [
+            2389.0,
+            1030
+          ],
+          [
+            2389.0,
+            1055
+          ],
+          [
+            2585,
+            1055
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:252",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:264",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            125,
+            400
+          ],
+          [
+            144,
+            400
+          ],
+          [
+            144,
+            395
+          ],
+          [
+            415,
+            395
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:6",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:40",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            125,
+            660
+          ],
+          [
+            144,
+            660
+          ],
+          [
+            144,
+            595
+          ],
+          [
+            475,
+            595
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:253",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:255",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            125,
+            290
+          ],
+          [
+            444,
+            290
+          ],
+          [
+            444,
+            220
+          ],
+          [
+            555,
+            220
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      }
+    ]
+  },
+  {
+    "scope": "sogi_discrete_comparison/BE",
+    "lines": [
+      {
+        "sourceSid": "sogi_discrete_comparison:62",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:150",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            585,
+            140
+          ],
+          [
+            605,
+            140
+          ],
+          [
+            605,
+            145
+          ],
+          [
+            645,
+            145
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:161",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:76",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            485
+          ],
+          [
+            934,
+            485
+          ],
+          [
+            934,
+            480
+          ],
+          [
+            985,
+            480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:162",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:77",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            565
+          ],
+          [
+            934,
+            565
+          ],
+          [
+            934,
+            560
+          ],
+          [
+            985,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:163",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:78",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            645
+          ],
+          [
+            934,
+            645
+          ],
+          [
+            934,
+            640
+          ],
+          [
+            985,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:164",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:80",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            765
+          ],
+          [
+            934,
+            765
+          ],
+          [
+            934,
+            760
+          ],
+          [
+            985,
+            760
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:165",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:81",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            845
+          ],
+          [
+            934,
+            845
+          ],
+          [
+            934,
+            840
+          ],
+          [
+            985,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:166",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:82",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            925
+          ],
+          [
+            934,
+            925
+          ],
+          [
+            934,
+            920
+          ],
+          [
+            985,
+            920
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:155",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:68",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1085
+          ],
+          [
+            934,
+            1085
+          ],
+          [
+            934,
+            1080
+          ],
+          [
+            985,
+            1080
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:156",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:69",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1165
+          ],
+          [
+            934,
+            1165
+          ],
+          [
+            934,
+            1160
+          ],
+          [
+            985,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:157",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:70",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1245
+          ],
+          [
+            934,
+            1245
+          ],
+          [
+            934,
+            1240
+          ],
+          [
+            985,
+            1240
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:158",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:72",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1405
+          ],
+          [
+            934,
+            1405
+          ],
+          [
+            934,
+            1400
+          ],
+          [
+            985,
+            1400
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:159",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:73",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1485
+          ],
+          [
+            934,
+            1485
+          ],
+          [
+            934,
+            1480
+          ],
+          [
+            985,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:160",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:74",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1565
+          ],
+          [
+            934,
+            1565
+          ],
+          [
+            934,
+            1560
+          ],
+          [
+            985,
+            1560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:168",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:62",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            345,
+            145
+          ],
+          [
+            364,
+            145
+          ],
+          [
+            364,
+            140
+          ],
+          [
+            455,
+            140
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:77",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:75",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            560
+          ],
+          [
+            1245,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:81",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:79",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            840
+          ],
+          [
+            1245,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:69",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:67",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1160
+          ],
+          [
+            1245,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:73",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:71",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1480
+          ],
+          [
+            1245,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:61",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:154",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            175,
+            420
+          ],
+          [
+            195,
+            420
+          ],
+          [
+            195,
+            425
+          ],
+          [
+            325,
+            425
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:167",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:62",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            345,
+            65
+          ],
+          [
+            364,
+            65
+          ],
+          [
+            364,
+            115
+          ],
+          [
+            455,
+            115
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:170",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:63",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1095
+          ],
+          [
+            1734,
+            1095
+          ],
+          [
+            1734,
+            1160
+          ],
+          [
+            1815,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:172",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:64",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1415
+          ],
+          [
+            1734,
+            1415
+          ],
+          [
+            1734,
+            1480
+          ],
+          [
+            1815,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:76",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:75",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            480
+          ],
+          [
+            1134,
+            480
+          ],
+          [
+            1134,
+            535
+          ],
+          [
+            1245,
+            535
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:78",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:75",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            640
+          ],
+          [
+            1134,
+            640
+          ],
+          [
+            1134,
+            585
+          ],
+          [
+            1245,
+            585
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:80",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:79",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            760
+          ],
+          [
+            1134,
+            760
+          ],
+          [
+            1134,
+            815
+          ],
+          [
+            1245,
+            815
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:82",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:79",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            920
+          ],
+          [
+            1134,
+            920
+          ],
+          [
+            1134,
+            865
+          ],
+          [
+            1245,
+            865
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:68",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:67",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1080
+          ],
+          [
+            1134,
+            1080
+          ],
+          [
+            1134,
+            1135
+          ],
+          [
+            1245,
+            1135
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:70",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:67",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1240
+          ],
+          [
+            1134,
+            1240
+          ],
+          [
+            1134,
+            1185
+          ],
+          [
+            1245,
+            1185
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:72",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:71",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1400
+          ],
+          [
+            1134,
+            1400
+          ],
+          [
+            1134,
+            1455
+          ],
+          [
+            1245,
+            1455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:74",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:71",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1560
+          ],
+          [
+            1134,
+            1560
+          ],
+          [
+            1134,
+            1505
+          ],
+          [
+            1245,
+            1505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:75",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:17",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            560
+          ],
+          [
+            1485,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:79",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:18",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            840
+          ],
+          [
+            1485,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:67",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:65",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            1160
+          ],
+          [
+            1485,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:71",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:66",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            1480
+          ],
+          [
+            1485,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:169",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:63",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1025
+          ],
+          [
+            1755,
+            1025
+          ],
+          [
+            1755,
+            1135
+          ],
+          [
+            1815,
+            1135
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:171",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:64",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1345
+          ],
+          [
+            1755,
+            1345
+          ],
+          [
+            1755,
+            1455
+          ],
+          [
+            1815,
+            1455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:16",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:153",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            115,
+            320
+          ],
+          [
+            134,
+            320
+          ],
+          [
+            134,
+            325
+          ],
+          [
+            325,
+            325
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:65",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:63",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1565,
+            1160
+          ],
+          [
+            1580.0,
+            1160
+          ],
+          [
+            1580.0,
+            1185
+          ],
+          [
+            1815,
+            1185
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:66",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:64",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1565,
+            1480
+          ],
+          [
+            1580.0,
+            1480
+          ],
+          [
+            1580.0,
+            1505
+          ],
+          [
+            1815,
+            1505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:63",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:151",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_BEX1_PU_f32",
+        "points": [
+          [
+            1945,
+            1160
+          ],
+          [
+            2145,
+            1160
+          ],
+          [
+            2145,
+            1165
+          ],
+          [
+            2235,
+            1165
+          ]
+        ],
+        "labelWidth": 180,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:64",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:152",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_BEX2_PU_f32",
+        "points": [
+          [
+            1945,
+            1480
+          ],
+          [
+            2145,
+            1480
+          ],
+          [
+            2145,
+            1485
+          ],
+          [
+            2235,
+            1485
+          ]
+        ],
+        "labelWidth": 180,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:15",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:62",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            115,
+            220
+          ],
+          [
+            134,
+            220
+          ],
+          [
+            134,
+            165
+          ],
+          [
+            455,
+            165
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      }
+    ]
+  },
+  {
+    "scope": "sogi_discrete_comparison/Tustin",
+    "lines": [
+      {
+        "sourceSid": "sogi_discrete_comparison:84",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:173",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            585,
+            140
+          ],
+          [
+            605,
+            140
+          ],
+          [
+            605,
+            145
+          ],
+          [
+            645,
+            145
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:184",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:98",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            485
+          ],
+          [
+            934,
+            485
+          ],
+          [
+            934,
+            480
+          ],
+          [
+            985,
+            480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:185",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:99",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            565
+          ],
+          [
+            934,
+            565
+          ],
+          [
+            934,
+            560
+          ],
+          [
+            985,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:186",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:100",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            645
+          ],
+          [
+            934,
+            645
+          ],
+          [
+            934,
+            640
+          ],
+          [
+            985,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:187",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:102",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            765
+          ],
+          [
+            934,
+            765
+          ],
+          [
+            934,
+            760
+          ],
+          [
+            985,
+            760
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:188",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:103",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            845
+          ],
+          [
+            934,
+            845
+          ],
+          [
+            934,
+            840
+          ],
+          [
+            985,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:189",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:104",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            925
+          ],
+          [
+            934,
+            925
+          ],
+          [
+            934,
+            920
+          ],
+          [
+            985,
+            920
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:178",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:90",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1085
+          ],
+          [
+            934,
+            1085
+          ],
+          [
+            934,
+            1080
+          ],
+          [
+            985,
+            1080
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:179",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:91",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1165
+          ],
+          [
+            934,
+            1165
+          ],
+          [
+            934,
+            1160
+          ],
+          [
+            985,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:180",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:92",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1245
+          ],
+          [
+            934,
+            1245
+          ],
+          [
+            934,
+            1240
+          ],
+          [
+            985,
+            1240
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:181",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:94",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1405
+          ],
+          [
+            934,
+            1405
+          ],
+          [
+            934,
+            1400
+          ],
+          [
+            985,
+            1400
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:182",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:95",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1485
+          ],
+          [
+            934,
+            1485
+          ],
+          [
+            934,
+            1480
+          ],
+          [
+            985,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:183",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:96",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1565
+          ],
+          [
+            934,
+            1565
+          ],
+          [
+            934,
+            1560
+          ],
+          [
+            985,
+            1560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:191",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:84",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            345,
+            145
+          ],
+          [
+            364,
+            145
+          ],
+          [
+            364,
+            140
+          ],
+          [
+            455,
+            140
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:99",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:97",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            560
+          ],
+          [
+            1245,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:103",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:101",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            840
+          ],
+          [
+            1245,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:91",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:89",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1160
+          ],
+          [
+            1245,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:95",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:93",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1480
+          ],
+          [
+            1245,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:83",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:177",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            175,
+            420
+          ],
+          [
+            195,
+            420
+          ],
+          [
+            195,
+            425
+          ],
+          [
+            325,
+            425
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:190",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:84",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            345,
+            65
+          ],
+          [
+            364,
+            65
+          ],
+          [
+            364,
+            115
+          ],
+          [
+            455,
+            115
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:193",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:85",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1095
+          ],
+          [
+            1734,
+            1095
+          ],
+          [
+            1734,
+            1160
+          ],
+          [
+            1815,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:195",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:86",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1415
+          ],
+          [
+            1734,
+            1415
+          ],
+          [
+            1734,
+            1480
+          ],
+          [
+            1815,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:98",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:97",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            480
+          ],
+          [
+            1134,
+            480
+          ],
+          [
+            1134,
+            535
+          ],
+          [
+            1245,
+            535
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:100",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:97",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            640
+          ],
+          [
+            1134,
+            640
+          ],
+          [
+            1134,
+            585
+          ],
+          [
+            1245,
+            585
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:102",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:101",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            760
+          ],
+          [
+            1134,
+            760
+          ],
+          [
+            1134,
+            815
+          ],
+          [
+            1245,
+            815
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:104",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:101",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            920
+          ],
+          [
+            1134,
+            920
+          ],
+          [
+            1134,
+            865
+          ],
+          [
+            1245,
+            865
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:90",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:89",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1080
+          ],
+          [
+            1134,
+            1080
+          ],
+          [
+            1134,
+            1135
+          ],
+          [
+            1245,
+            1135
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:92",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:89",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1240
+          ],
+          [
+            1134,
+            1240
+          ],
+          [
+            1134,
+            1185
+          ],
+          [
+            1245,
+            1185
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:94",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:93",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1400
+          ],
+          [
+            1134,
+            1400
+          ],
+          [
+            1134,
+            1455
+          ],
+          [
+            1245,
+            1455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:96",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:93",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1560
+          ],
+          [
+            1134,
+            1560
+          ],
+          [
+            1134,
+            1505
+          ],
+          [
+            1245,
+            1505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:97",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:26",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            560
+          ],
+          [
+            1485,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:101",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:27",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            840
+          ],
+          [
+            1485,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:89",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:87",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            1160
+          ],
+          [
+            1485,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:93",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:88",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            1480
+          ],
+          [
+            1485,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:192",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:85",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1025
+          ],
+          [
+            1755,
+            1025
+          ],
+          [
+            1755,
+            1135
+          ],
+          [
+            1815,
+            1135
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:194",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:86",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1345
+          ],
+          [
+            1755,
+            1345
+          ],
+          [
+            1755,
+            1455
+          ],
+          [
+            1815,
+            1455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:25",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:176",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            115,
+            320
+          ],
+          [
+            134,
+            320
+          ],
+          [
+            134,
+            325
+          ],
+          [
+            325,
+            325
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:87",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:85",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1565,
+            1160
+          ],
+          [
+            1580.0,
+            1160
+          ],
+          [
+            1580.0,
+            1185
+          ],
+          [
+            1815,
+            1185
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:88",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:86",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1565,
+            1480
+          ],
+          [
+            1580.0,
+            1480
+          ],
+          [
+            1580.0,
+            1505
+          ],
+          [
+            1815,
+            1505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:85",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:174",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_TustinX1_PU_f32",
+        "points": [
+          [
+            1945,
+            1160
+          ],
+          [
+            2165,
+            1160
+          ],
+          [
+            2165,
+            1165
+          ],
+          [
+            2235,
+            1165
+          ]
+        ],
+        "labelWidth": 199,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:86",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:175",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_TustinX2_PU_f32",
+        "points": [
+          [
+            1945,
+            1480
+          ],
+          [
+            2165,
+            1480
+          ],
+          [
+            2165,
+            1485
+          ],
+          [
+            2235,
+            1485
+          ]
+        ],
+        "labelWidth": 199,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:24",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:84",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            115,
+            220
+          ],
+          [
+            134,
+            220
+          ],
+          [
+            134,
+            165
+          ],
+          [
+            455,
+            165
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      }
+    ]
+  },
+  {
+    "scope": "sogi_discrete_comparison/ZOH",
+    "lines": [
+      {
+        "sourceSid": "sogi_discrete_comparison:106",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:196",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            585,
+            140
+          ],
+          [
+            605,
+            140
+          ],
+          [
+            605,
+            145
+          ],
+          [
+            645,
+            145
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:207",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:120",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            485
+          ],
+          [
+            934,
+            485
+          ],
+          [
+            934,
+            480
+          ],
+          [
+            985,
+            480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:208",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:121",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            565
+          ],
+          [
+            934,
+            565
+          ],
+          [
+            934,
+            560
+          ],
+          [
+            985,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:209",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:122",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            645
+          ],
+          [
+            934,
+            645
+          ],
+          [
+            934,
+            640
+          ],
+          [
+            985,
+            640
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:210",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:124",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            765
+          ],
+          [
+            934,
+            765
+          ],
+          [
+            934,
+            760
+          ],
+          [
+            985,
+            760
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:211",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:125",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            845
+          ],
+          [
+            934,
+            845
+          ],
+          [
+            934,
+            840
+          ],
+          [
+            985,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:212",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:126",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            925
+          ],
+          [
+            934,
+            925
+          ],
+          [
+            934,
+            920
+          ],
+          [
+            985,
+            920
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:201",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:112",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1085
+          ],
+          [
+            934,
+            1085
+          ],
+          [
+            934,
+            1080
+          ],
+          [
+            985,
+            1080
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:202",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:113",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1165
+          ],
+          [
+            934,
+            1165
+          ],
+          [
+            934,
+            1160
+          ],
+          [
+            985,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:203",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:114",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1245
+          ],
+          [
+            934,
+            1245
+          ],
+          [
+            934,
+            1240
+          ],
+          [
+            985,
+            1240
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:204",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:116",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1405
+          ],
+          [
+            934,
+            1405
+          ],
+          [
+            934,
+            1400
+          ],
+          [
+            985,
+            1400
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:205",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:117",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1485
+          ],
+          [
+            934,
+            1485
+          ],
+          [
+            934,
+            1480
+          ],
+          [
+            985,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:206",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:118",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            915,
+            1565
+          ],
+          [
+            934,
+            1565
+          ],
+          [
+            934,
+            1560
+          ],
+          [
+            985,
+            1560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:214",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:106",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            345,
+            145
+          ],
+          [
+            364,
+            145
+          ],
+          [
+            364,
+            140
+          ],
+          [
+            455,
+            140
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:121",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:119",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            560
+          ],
+          [
+            1245,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:125",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:123",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            840
+          ],
+          [
+            1245,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:113",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:111",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1160
+          ],
+          [
+            1245,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:117",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:115",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1480
+          ],
+          [
+            1245,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:105",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:200",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            175,
+            420
+          ],
+          [
+            195,
+            420
+          ],
+          [
+            195,
+            425
+          ],
+          [
+            325,
+            425
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:213",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:106",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            345,
+            65
+          ],
+          [
+            364,
+            65
+          ],
+          [
+            364,
+            115
+          ],
+          [
+            455,
+            115
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:216",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:107",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1095
+          ],
+          [
+            1734,
+            1095
+          ],
+          [
+            1734,
+            1160
+          ],
+          [
+            1815,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:218",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:108",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1415
+          ],
+          [
+            1734,
+            1415
+          ],
+          [
+            1734,
+            1480
+          ],
+          [
+            1815,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:120",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:119",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            480
+          ],
+          [
+            1134,
+            480
+          ],
+          [
+            1134,
+            535
+          ],
+          [
+            1245,
+            535
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:122",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:119",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            640
+          ],
+          [
+            1134,
+            640
+          ],
+          [
+            1134,
+            585
+          ],
+          [
+            1245,
+            585
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:124",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:123",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            760
+          ],
+          [
+            1134,
+            760
+          ],
+          [
+            1134,
+            815
+          ],
+          [
+            1245,
+            815
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:126",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:123",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            920
+          ],
+          [
+            1134,
+            920
+          ],
+          [
+            1134,
+            865
+          ],
+          [
+            1245,
+            865
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:112",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:111",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1080
+          ],
+          [
+            1134,
+            1080
+          ],
+          [
+            1134,
+            1135
+          ],
+          [
+            1245,
+            1135
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:114",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:111",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1240
+          ],
+          [
+            1134,
+            1240
+          ],
+          [
+            1134,
+            1185
+          ],
+          [
+            1245,
+            1185
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:116",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:115",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1400
+          ],
+          [
+            1134,
+            1400
+          ],
+          [
+            1134,
+            1455
+          ],
+          [
+            1245,
+            1455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:118",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:115",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1115,
+            1560
+          ],
+          [
+            1134,
+            1560
+          ],
+          [
+            1134,
+            1505
+          ],
+          [
+            1245,
+            1505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:119",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:35",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            560
+          ],
+          [
+            1485,
+            560
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:123",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:36",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            840
+          ],
+          [
+            1485,
+            840
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:111",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:109",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            1160
+          ],
+          [
+            1485,
+            1160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:115",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:110",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1295,
+            1480
+          ],
+          [
+            1485,
+            1480
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:215",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:107",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1025
+          ],
+          [
+            1755,
+            1025
+          ],
+          [
+            1755,
+            1135
+          ],
+          [
+            1815,
+            1135
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:217",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:108",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1715,
+            1345
+          ],
+          [
+            1755,
+            1345
+          ],
+          [
+            1755,
+            1455
+          ],
+          [
+            1815,
+            1455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:34",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:199",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            115,
+            320
+          ],
+          [
+            134,
+            320
+          ],
+          [
+            134,
+            325
+          ],
+          [
+            325,
+            325
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:109",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:107",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1565,
+            1160
+          ],
+          [
+            1580.0,
+            1160
+          ],
+          [
+            1580.0,
+            1185
+          ],
+          [
+            1815,
+            1185
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:110",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:108",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1565,
+            1480
+          ],
+          [
+            1580.0,
+            1480
+          ],
+          [
+            1580.0,
+            1505
+          ],
+          [
+            1815,
+            1505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:107",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:197",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_ZOHX1_PU_f32",
+        "points": [
+          [
+            1945,
+            1160
+          ],
+          [
+            2165,
+            1160
+          ],
+          [
+            2165,
+            1165
+          ],
+          [
+            2235,
+            1165
+          ]
+        ],
+        "labelWidth": 190,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:108",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:198",
+        "destinationPort": 1,
+        "name": "Meas_SOGI_ZOHX2_PU_f32",
+        "points": [
+          [
+            1945,
+            1480
+          ],
+          [
+            2165,
+            1480
+          ],
+          [
+            2165,
+            1485
+          ],
+          [
+            2235,
+            1485
+          ]
+        ],
+        "labelWidth": 190,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_discrete_comparison:33",
+        "sourcePort": 1,
+        "destinationSid": "sogi_discrete_comparison:106",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            115,
+            220
+          ],
+          [
+            134,
+            220
+          ],
+          [
+            134,
+            165
+          ],
+          [
+            455,
+            165
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      }
+    ]
+  },
+  {
+    "scope": "sogi_validation",
+    "lines": [
+      {
+        "sourceSid": "sogi_validation:32",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:3",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            795,
+            445
+          ],
+          [
+            814,
+            445
+          ],
+          [
+            814,
+            440
+          ],
+          [
+            845,
+            440
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:33",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:16",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            795,
+            1015
+          ],
+          [
+            814,
+            1015
+          ],
+          [
+            814,
+            1010
+          ],
+          [
+            845,
+            1010
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:8",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:41",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2105,
+            610
+          ],
+          [
+            2125,
+            610
+          ],
+          [
+            2125,
+            615
+          ],
+          [
+            2175,
+            615
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:1",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:2",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            175,
+            280
+          ],
+          [
+            255,
+            280
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:53",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:5",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1025,
+            610
+          ],
+          [
+            1115,
+            610
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:55",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:5",
+        "destinationPort": 5,
+        "name": "",
+        "points": [
+          [
+            1025,
+            780
+          ],
+          [
+            1115,
+            780
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:36",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:9",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2565,
+            1055
+          ],
+          [
+            2655,
+            1055
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:37",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:9",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            2565,
+            1125
+          ],
+          [
+            2655,
+            1125
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:38",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:9",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            2565,
+            1195
+          ],
+          [
+            2655,
+            1195
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:39",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:9",
+        "destinationPort": 4,
+        "name": "",
+        "points": [
+          [
+            2565,
+            1265
+          ],
+          [
+            2655,
+            1265
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:2",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:31",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            375,
+            280
+          ],
+          [
+            395,
+            280
+          ],
+          [
+            395,
+            285
+          ],
+          [
+            465,
+            285
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:54",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:5",
+        "destinationPort": 4,
+        "name": "",
+        "points": [
+          [
+            1025,
+            700
+          ],
+          [
+            1044,
+            700
+          ],
+          [
+            1044,
+            695
+          ],
+          [
+            1115,
+            695
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:15",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:34",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1335,
+            1010
+          ],
+          [
+            1355,
+            1010
+          ],
+          [
+            1355,
+            1015
+          ],
+          [
+            1435,
+            1015
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1705,
+            435
+          ],
+          [
+            1725,
+            435
+          ],
+          [
+            1725,
+            455
+          ],
+          [
+            1805,
+            455
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 2,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1705,
+            485
+          ],
+          [
+            1725,
+            485
+          ],
+          [
+            1725,
+            505
+          ],
+          [
+            1805,
+            505
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 3,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            1705,
+            535
+          ],
+          [
+            1725,
+            535
+          ],
+          [
+            1725,
+            555
+          ],
+          [
+            1805,
+            555
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 4,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 4,
+        "name": "",
+        "points": [
+          [
+            1705,
+            585
+          ],
+          [
+            1725,
+            585
+          ],
+          [
+            1725,
+            605
+          ],
+          [
+            1805,
+            605
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 5,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 5,
+        "name": "",
+        "points": [
+          [
+            1705,
+            635
+          ],
+          [
+            1725,
+            635
+          ],
+          [
+            1725,
+            655
+          ],
+          [
+            1805,
+            655
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 6,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 6,
+        "name": "",
+        "points": [
+          [
+            1705,
+            685
+          ],
+          [
+            1725,
+            685
+          ],
+          [
+            1725,
+            705
+          ],
+          [
+            1805,
+            705
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 7,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 7,
+        "name": "",
+        "points": [
+          [
+            1705,
+            735
+          ],
+          [
+            1725,
+            735
+          ],
+          [
+            1725,
+            755
+          ],
+          [
+            1805,
+            755
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:5",
+        "sourcePort": 8,
+        "destinationSid": "sogi_validation:7",
+        "destinationPort": 8,
+        "name": "",
+        "points": [
+          [
+            1705,
+            785
+          ],
+          [
+            1725,
+            785
+          ],
+          [
+            1725,
+            805
+          ],
+          [
+            1805,
+            805
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:3",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:5",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            975,
+            440
+          ],
+          [
+            1115,
+            440
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:4",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:5",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            975,
+            530
+          ],
+          [
+            994,
+            530
+          ],
+          [
+            994,
+            525
+          ],
+          [
+            1115,
+            525
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:7",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:8",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1835,
+            630
+          ],
+          [
+            1855,
+            630
+          ],
+          [
+            1855,
+            610
+          ],
+          [
+            1975,
+            610
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:16",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:15",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1055,
+            1010
+          ],
+          [
+            1215,
+            1010
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:10",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:13",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2995,
+            1120
+          ],
+          [
+            3195,
+            1120
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:42",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:11",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2575,
+            285
+          ],
+          [
+            2585.0,
+            285
+          ],
+          [
+            2585.0,
+            280
+          ],
+          [
+            2815,
+            280
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:35",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:12",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2575,
+            385
+          ],
+          [
+            2585.0,
+            385
+          ],
+          [
+            2585.0,
+            380
+          ],
+          [
+            2815,
+            380
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:44",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:14",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2575,
+            565
+          ],
+          [
+            2585.0,
+            565
+          ],
+          [
+            2585.0,
+            595
+          ],
+          [
+            2815,
+            595
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:40",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:14",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            2575,
+            665
+          ],
+          [
+            2585.0,
+            665
+          ],
+          [
+            2585.0,
+            625
+          ],
+          [
+            2815,
+            625
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:9",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:10",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            2685,
+            1160
+          ],
+          [
+            2705,
+            1160
+          ],
+          [
+            2705,
+            1130
+          ],
+          [
+            2945,
+            1130
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:43",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:10",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            2805,
+            925
+          ],
+          [
+            2825,
+            925
+          ],
+          [
+            2825,
+            1110
+          ],
+          [
+            2945,
+            1110
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      }
+    ]
+  },
+  {
+    "scope": "sogi_validation/Continuous_Reference",
+    "lines": [
+      {
+        "sourceSid": "sogi_validation:48",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:28",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1465,
+            485
+          ],
+          [
+            1484,
+            485
+          ],
+          [
+            1484,
+            500
+          ],
+          [
+            1585,
+            500
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:51",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:28",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            1465,
+            625
+          ],
+          [
+            1484,
+            625
+          ],
+          [
+            1484,
+            600
+          ],
+          [
+            1585,
+            600
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:24",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:27",
+        "destinationPort": 2,
+        "name": "",
+        "points": [
+          [
+            445,
+            280
+          ],
+          [
+            595,
+            280
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:46",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:24",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            165,
+            285
+          ],
+          [
+            184,
+            285
+          ],
+          [
+            184,
+            280
+          ],
+          [
+            315,
+            280
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:21",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:45",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            895,
+            280
+          ],
+          [
+            914,
+            280
+          ],
+          [
+            914,
+            285
+          ],
+          [
+            1045,
+            285
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:50",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:25",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            165,
+            405
+          ],
+          [
+            184,
+            405
+          ],
+          [
+            184,
+            400
+          ],
+          [
+            315,
+            400
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:47",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:26",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            165,
+            665
+          ],
+          [
+            184,
+            665
+          ],
+          [
+            184,
+            660
+          ],
+          [
+            315,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:22",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:49",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            895,
+            660
+          ],
+          [
+            914,
+            660
+          ],
+          [
+            914,
+            665
+          ],
+          [
+            1045,
+            665
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:27",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:21",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            645,
+            280
+          ],
+          [
+            815,
+            280
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:28",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:20",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            1615,
+            550
+          ],
+          [
+            1805,
+            550
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:19",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:23",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            115,
+            160
+          ],
+          [
+            315,
+            160
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:23",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:27",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            445,
+            160
+          ],
+          [
+            464,
+            160
+          ],
+          [
+            464,
+            255
+          ],
+          [
+            595,
+            255
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:25",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:27",
+        "destinationPort": 3,
+        "name": "",
+        "points": [
+          [
+            445,
+            400
+          ],
+          [
+            464,
+            400
+          ],
+          [
+            464,
+            305
+          ],
+          [
+            595,
+            305
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      },
+      {
+        "sourceSid": "sogi_validation:26",
+        "sourcePort": 1,
+        "destinationSid": "sogi_validation:22",
+        "destinationPort": 1,
+        "name": "",
+        "points": [
+          [
+            445,
+            660
+          ],
+          [
+            815,
+            660
+          ]
+        ],
+        "labelWidth": 4,
+        "labelHeight": 19
+      }
+    ]
+  }
+]

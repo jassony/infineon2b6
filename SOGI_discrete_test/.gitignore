@@ -1,0 +1,8 @@
+slprj/
+*.slxc
+*.slx.autosave
+*.slx.bak
+*.sldd.bak
+reports/cache/
+reports/*_raw.mat
+reports/*.transfer.csv

@@ -1,0 +1,320 @@
+﻿VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+VAL_TABLE_ WPTC_Other_err_value 32 "HeatProtect" 16 "M_AD_Current" 4 "M_ClntOtltOverTempProtn" 2 "M_Resistance_High_Fault" 1 "M_Resistance_Low_Fault" 0 "namoul" ;
+VAL_TABLE_ WPTC_DryBurn_TCR 1 "Fault" 0 "Normal
+
+" ;
+VAL_TABLE_ ACCM_StallFault 1 "Fault" 0 "Normal" ;
+VAL_TABLE_ ACCM_AppState 3 "FAULT" 2 "STOP
+
+" 1 "RUN
+
+" 0 "INIT
+
+" ;
+VAL_TABLE_ M_TargetPower 0 "W" ;
+VAL_TABLE_ M_Cmd 1 "run" 0 "stop" ;
+VAL_TABLE_ AC_Cmd 1 "run" 0 "stop
+
+" ;
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ New_Signal_44 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_43 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 526 ACCM_Fault: 8 Vector__XXX
+ SG_ ACCM_FaultCode : 0|17@1+ (1,0) [0|131071] "" Vector__XXX
+ SG_ ACCM_IPMFault : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 525 WPTC: 8 Vector__XXX
+ SG_ WPTC_Other_err : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ WPTC_DryBurn : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WPTC_Power : 8|16@1+ (1,0) [0|65535] "W" Vector__XXX
+ SG_ WPTC_PeakCurrent : 32|8@1+ (0.2,0) [0|127.5] "A" Vector__XXX
+ SG_ WPTC_OvTemp_OUT : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WPTC_OvTemp_IN : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WPTC_OcFault : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WPTC_DutyPoint : 0|8@1+ (1,0) [0|255] "%" Vector__XXX
+ SG_ WPTC_DryBurn_TCR : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WPTC_Current : 24|8@1+ (0.1,0) [1|26.5] "A" Vector__XXX
+ SG_ WPTC_ClntOtltOverTempProtn : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Version : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ M_TempSensorFoult_OUT : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ M_TempSensorFoult_IN : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 524 ACCM_WPTC: 8 Vector__XXX
+ SG_ WPTC_Oc_ADFault : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_OvTemp : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_UvFault : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_Temp_SIC : 0|8@1+ (1,-40) [-40|215] "℃" Vector__XXX
+ SG_ ACCM_Temp_PCB : 8|8@1+ (1,-40) [-40|215] "℃" Vector__XXX
+ SG_ ACCM_Temp_IN : 40|8@1+ (1,-40) [-40|215] "℃" Vector__XXX
+ SG_ ACCM_StallFault : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_speedFault : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_OvSoftRmsCurrent : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_OvSoftwarePeakCurrent : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_OvFault : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_OverLoad : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_OcFault : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACCM_CanTimeOut : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WPTC_Temp_SIC : 16|8@1+ (1,-40) [-40|215] "℃" Vector__XXX
+ SG_ WPTC_Temp_OUT : 32|8@1+ (1,-40) [-40|215] "℃" Vector__XXX
+ SG_ WPTC_Heating_R : 24|8@1+ (4,0) [0|1020] "Ω" Vector__XXX
+ SG_ LV_Under_voltage : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LV_Over_voltage : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BusOff : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 523 ACCM: 8 Vector__XXX
+ SG_ ACCM_VdcValue : 0|16@1+ (1,0) [0|65535] "DCV" Vector__XXX
+ SG_ ACCM_RealSpd : 16|16@1+ (1,0) [0|65535] "rpm" Vector__XXX
+ SG_ ACCM_Power : 56|8@1+ (0.1,0) [0|25.5] "kw" Vector__XXX
+ SG_ ACCM_PhareCurrent : 48|8@1+ (0.1,0) [0|25.5] "A" Vector__XXX
+ SG_ ACCM_BusCurrent : 40|8@1+ (0.1,0) [0|255] "A" Vector__XXX
+ SG_ ACCM_AppState : 32|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 522 AC: 8 Vector__XXX
+ SG_ AC_M_TargetPower : 32|16@1+ (1,0) [0|65535] "W" Vector__XXX
+ SG_ AC_M_Cmd : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ AC_AC_SpdCmd : 8|16@1+ (1,0) [0|10000] "rpm" Vector__XXX
+ SG_ AC_AC_PwrLim : 24|8@1+ (0.04,0) [0|10.16] "kw" Vector__XXX
+ SG_ AC_AC_Cmd : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 527 ACCM_DebugDQ: 8 Vector__XXX
+ SG_ ACCM_Dbg_Vd_q5 : 0|16@1- (0.03125,0) [-1024|1023.96875] "V" Vector__XXX
+ SG_ ACCM_Dbg_Vq_q5 : 16|16@1- (0.03125,0) [-1024|1023.96875] "V" Vector__XXX
+ SG_ ACCM_Dbg_Id_q4 : 32|16@1- (0.0625,0) [-2048|2047.9375] "A" Vector__XXX
+ SG_ ACCM_Dbg_Iq_q4 : 48|16@1- (0.0625,0) [-2048|2047.9375] "A" Vector__XXX
+
+BO_ 528 ACCM_DebugMod: 8 Vector__XXX
+ SG_ ACCM_ModRatio_q15 : 0|16@1+ (3.0517578125e-5,0) [0|1.99997] "" Vector__XXX
+ SG_ ACCM_VoltUtil_pct : 16|14@1+ (0.01,0) [0|163.83] "%" Vector__XXX
+ SG_ ACCM_Overmod : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ BO_ 526 "Motor FaultCode Word, bit0:StallDetected bit1:OcFault bit2:OvFault bit3:UvFault bit4:OvLoadFault bit5:OvTemp bit6:OffsetError bit7:OvSoftRmsCurrent bit8:OvSoftwarePeakCurrent bit9:OvBusCurrent bit10:CurrentUnbalance bit11:ERR_OUTCAN bit12:speedFault bit13:BusOff bit14:OvFaultLow bit15:UvFaultLow bit16:PowerOverFault bit17:IPMFault
+";
+CM_ SG_ 526 ACCM_FaultCode "ACCM FaultCode Word, bit0:StallDetected bit1:OcFault bit2:OvFault bit3:UvFault bit4:OvLoadFault bit5:OvTemp bit6:OffsetError bit7:OvSoftRmsCurrent bit8:OvSoftwarePeakCurrent bit9:OvBusCurrent bit10:CurrentUnbalance bit11:ERR_OUTCAN bit12:speedFault bit13:BusOff bit14:OvFaultLow bit15:UvFaultLow bit16:PowerOverFault bit17:IPMFault
+";
+CM_ SG_ 526 ACCM_IPMFault "IPM模块故障状态 0:Normal 1:Fault
+";
+CM_ BO_ 525 "厚膜
+";
+CM_ SG_ 525 WPTC_Power "厚膜加热功率
+";
+CM_ SG_ 525 WPTC_PeakCurrent "厚膜加热峰值电流
+";
+CM_ SG_ 525 WPTC_OvTemp_OUT "出水口过温故障
+";
+CM_ SG_ 525 WPTC_OvTemp_IN "进水口过温故障
+";
+CM_ SG_ 525 WPTC_OcFault "过流故障
+";
+CM_ SG_ 525 WPTC_DutyPoint "目标占空比
+";
+CM_ SG_ 525 WPTC_DryBurn_TCR "干烧故障
+";
+CM_ SG_ 525 WPTC_Current "厚膜加热电流
+
+";
+CM_ SG_ 525 WPTC_ClntOtltOverTempProtn "冷却液出口水温差保护
+";
+CM_ SG_ 525 Version "版本号
+";
+CM_ SG_ 525 M_TempSensorFoult_OUT "出水口温度传感器故障
+";
+CM_ SG_ 525 M_TempSensorFoult_IN "进水口温度传感器故障
+";
+CM_ BO_ 524 "压缩机&厚膜
+";
+CM_ SG_ 524 WPTC_Oc_ADFault "过流故障
+";
+CM_ SG_ 524 ACCM_OvTemp "压缩机过温故障
+";
+CM_ SG_ 524 ACCM_UvFault "低压欠压故障
+";
+CM_ SG_ 524 ACCM_Temp_SIC "压缩机功率管温度
+";
+CM_ SG_ 524 ACCM_Temp_PCB "控制器温度
+";
+CM_ SG_ 524 ACCM_Temp_IN "厚膜进水口温度
+";
+CM_ SG_ 524 ACCM_StallFault "压缩机堵转故障
+";
+CM_ SG_ 524 ACCM_speedFault "失速
+";
+CM_ SG_ 524 ACCM_OvSoftRmsCurrent "软件过流故障
+";
+CM_ SG_ 524 ACCM_OvSoftwarePeakCurrent "软件峰值过流故障
+";
+CM_ SG_ 524 ACCM_OvFault "高压过压故障
+";
+CM_ SG_ 524 ACCM_OverLoad "过载故障保护
+";
+CM_ SG_ 524 ACCM_OcFault "压缩机硬件过流故障
+";
+CM_ SG_ 524 ACCM_CanTimeOut "通讯超时故障
+";
+CM_ SG_ 524 WPTC_Temp_SIC "膜管功率管温度
+";
+CM_ SG_ 524 WPTC_Temp_OUT "厚膜出水口温度
+";
+CM_ SG_ 524 WPTC_Heating_R "厚膜加热阻值
+";
+CM_ SG_ 524 LV_Under_voltage "低压欠压
+";
+CM_ SG_ 524 LV_Over_voltage "低压过压
+";
+CM_ SG_ 524 BusOff "BusOff故障保护
+";
+CM_ BO_ 523 "压缩机";
+CM_ SG_ 523 ACCM_VdcValue "压缩机母线电压
+";
+CM_ SG_ 523 ACCM_RealSpd "压缩机转速
+";
+CM_ SG_ 523 ACCM_Power "压缩机功率
+";
+CM_ SG_ 523 ACCM_PhareCurrent "压缩机相电流
+";
+CM_ SG_ 523 ACCM_BusCurrent "压缩机母线电流
+
+";
+CM_ SG_ 523 ACCM_AppState "压缩机状态
+";
+CM_ BO_ 522 "空调AC
+
+";
+CM_ SG_ 522 AC_M_TargetPower "厚膜加热目标功率
+";
+CM_ SG_ 522 AC_M_Cmd "厚膜加热使能
+";
+CM_ SG_ 522 AC_AC_SpdCmd "压缩机目标转速
+";
+CM_ SG_ 522 AC_AC_PwrLim "压缩机功率限制
+";
+CM_ SG_ 522 AC_AC_Cmd "压缩机使能
+";
+CM_ BO_ 527 "压缩机调试DQ数据 - 功率模型标定用. M4侧已做一阶低通滤波(Ts=100ms,tau=0.9s,alpha=0.1)+状态门控(连续10个100ms运行样本才发). 物理值: Vd/Vq为Q5定点(分辨率31.3mV,量程±1024V), Id/Iq为Q4定点(分辨率62.5mA,量程±2048A). CANoe直接显示V/A单位
+";
+CM_ SG_ 527 ACCM_Dbg_Vd_q5 "D轴电压(滤波后) Q5, 物理值=int16/32 V
+";
+CM_ SG_ 527 ACCM_Dbg_Vq_q5 "Q轴电压(滤波后) Q5, 物理值=int16/32 V
+";
+CM_ SG_ 527 ACCM_Dbg_Id_q4 "D轴电流(滤波后) Q4, 物理值=int16/16 A
+";
+CM_ SG_ 527 ACCM_Dbg_Iq_q4 "Q轴电流(滤波后) Q4, 物理值=int16/16 A
+";
+CM_ BO_ 528 "压缩机调试调制深度数据 - 监控SVPWM是否接近过调制. 调制比=|Vref|/Vdc(经SVPWM限幅后实测值, phase-neutral modIndex). 线性调制上限=1/√3≈0.5774 (SDK常量 MI_0907_Q15=18921). 电压利用率=调制比/(1/√3)×100%, 100%即线性调制极限=过调制判定边界
+";
+CM_ SG_ 528 ACCM_ModRatio_q15 "调制比 Q15, 物理值=raw/32768, 范围0~0.5774(线性区) / >0.5774(过调制区被限幅)
+";
+CM_ SG_ 528 ACCM_VoltUtil_pct "电压利用率 0.01%/LSB, 100%=线性调制极限(1/√3), 与overmodulationFlag同步
+";
+CM_ SG_ 528 ACCM_Overmod "SVPWM过调制标志 0:Normal 1:Overmodulation
+";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+VAL_ 525 WPTC_Other_err 32 "HeatProtect" 16 "M_AD_Current" 4 "M_ClntOtltOverTempProtn" 2 "M_Resistance_High_Fault" 1 "M_Resistance_Low_Fault" 0 "namoul" ;
+VAL_ 525 WPTC_DryBurn 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 WPTC_OvTemp_OUT 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 WPTC_OvTemp_IN 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 WPTC_OcFault 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 WPTC_DryBurn_TCR 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 WPTC_ClntOtltOverTempProtn 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 Version 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 M_TempSensorFoult_OUT 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 525 M_TempSensorFoult_IN 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 524 WPTC_Oc_ADFault 1 "Fault" 0 "Normal
+
+" ;
+VAL_ 524 ACCM_OvTemp 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_UvFault 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_StallFault 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_speedFault 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_OvSoftRmsCurrent 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_OvSoftwarePeakCurrent 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_OvFault 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_OverLoad 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_OcFault 1 "Fault" 0 "Normal" ;
+VAL_ 524 ACCM_CanTimeOut 1 "Fault" 0 "Normal" ;
+VAL_ 524 LV_Under_voltage 1 "Fault" 0 "Normal" ;
+VAL_ 524 LV_Over_voltage 1 "Fault" 0 "Normal" ;
+VAL_ 524 BusOff 1 "Fault" 0 "Normal" ;
+VAL_ 523 ACCM_AppState 3 "FAULT" 2 "STOP
+
+" 1 "RUN
+
+" 0 "INIT
+
+" ;
+VAL_ 522 AC_M_Cmd 1 "run" 0 "stop" ;
+VAL_ 522 AC_AC_Cmd 1 "run" 0 "stop
+
+" ;
+VAL_ 526 ACCM_IPMFault 1 "Fault" 0 "Normal" ;

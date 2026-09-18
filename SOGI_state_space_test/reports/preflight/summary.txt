@@ -1,0 +1,8 @@
+Scope: MATLAB reference and single arithmetic only; no Simulink acceptance
+Status: PASS
+PASS: 243
+FAIL: 0
+Not run: Simulink structural/compiled/geometry/numerical acceptance
+Not run: Simultaneous Simulink instance isolation
+Not run: Full nonzero-physical-state replay
+Not run: Symbolic proof (run sogi_ss_symbolic_derivation separately)

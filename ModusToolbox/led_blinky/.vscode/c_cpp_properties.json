@@ -1,0 +1,37 @@
+{
+    "version": 4,
+    "env": {
+        "mtbCompilerArgs": [
+            "-c","-mcpu=cortex-m0plus","--specs=nano.specs","-Og","-mthumb","-ffunction-sections","-fdata-sections","-ffat-lto-objects","-g","-Wall","-pipe"
+        ],
+        "mtbDefaultIncludePath": [
+            "../../CMSIS/Include","bsps/TARGET_IFL-2B6-3IN1-BLINK","bsps",".","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/devices/COMPONENT_CAT1A/include","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/devices/COMPONENT_CAT1A","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/devices","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/devices/COMPONENT_CAT1A/include/ip","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/drivers/include","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/drivers","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/drivers/third_party/ethernet/include","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/drivers/third_party/ethernet","C:/Users/ASUS/.modustoolbox/global/mtb-pdl-cat1/release-v3.24.0/drivers/third_party","vendor/core-lib-release-v1.8.0/include","vendor/core-lib-release-v1.8.0"
+        ],
+        "mtbDefaultDefines": [
+            "COMPONENT_CAT1","COMPONENT_CAT1A","COMPONENT_CM0P","COMPONENT_CM0P_0","COMPONENT_Debug","COMPONENT_GCC_ARM","COMPONENT_IFL_2B6_3IN1_BLINK","COMPONENT_SOFTFP","COMPONENT_TVIIBE1M","CORE_NAME_CM0P_0=1","CYT2B63CAE","CY_APPNAME_ifl_2b6_led_blinky","CY_SUPPORTS_DEVICE_VALIDATION","CY_TARGET_BOARD=IFL_2B6_3IN1_BLINK","DEBUG","TARGET_IFL_2B6_3IN1_BLINK"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "MTB",
+            "compilerPath": "C:/Users/ASUS/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "${mtbCompilerArgs}"
+            ],
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "gcc-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "includePath": [
+                "${mtbDefaultIncludePath}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "${mtbDefaultDefines}"
+            ]
+        }
+    ]
+}

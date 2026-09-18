@@ -1,0 +1,5 @@
+# Local Simulink cache and local Academic-License ERT artifacts.
+*.autosave
+*.slxc
+slprj/
+adrc_speed_controller_wrapper_ert_rtw/

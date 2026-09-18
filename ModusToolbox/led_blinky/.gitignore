@@ -1,0 +1,7 @@
+build/
+vendor/
+libs/
+*.log
+# Preserve the VS Code files despite the parent repository's .vscode rule.
+!.vscode/
+!.vscode/**

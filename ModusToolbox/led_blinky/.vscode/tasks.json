@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "process",
+      "command": "bash",
+      "args": [
+        "--norc",
+        "-c",
+        "make -j20 build"
+      ],
+      "windows": {
+        "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
+        "args": [
+          "--norc",
+          "-c",
+          "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j20 build"
+        ]
+      },
+      "problemMatcher": "$gcc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Rebuild",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Clean",
+        "Build"
+      ],
+      "group": {
+        "kind": "build"
+      }
+    },
+    {
+      "label": "Clean",
+      "type": "process",
+      "command": "bash",
+      "args": [
+        "--norc",
+        "-c",
+        "make clean"
+      ],
+      "windows": {
+        "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
+        "args": [
+          "--norc",
+          "-c",
+          "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe clean"
+        ]
+      },
+      "group": {
+        "kind": "build"
+      }
+    },
+    {
+      "label": "Program",
+      "type": "process",
+      "command": "bash",
+      "args": [
+        "--norc",
+        "-c",
+        "make -j20 program"
+      ],
+      "windows": {
+        "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
+        "args": [
+          "--norc",
+          "-c",
+          "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j20 program"
+        ]
+      },
+      "problemMatcher": "$gcc",
+      "group": {
+        "kind": "build"
+      }
+    }
+  ]
+}

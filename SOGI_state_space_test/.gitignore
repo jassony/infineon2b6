@@ -1,0 +1,6 @@
+execution/
+slprj/
+*.slxc
+*.slx.autosave
+*.slx.r*
+reports/**/*.mat
