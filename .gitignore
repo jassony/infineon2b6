@@ -1,0 +1,84 @@
+# ============================================================
+# Build output (objects, listings, firmware images)
+# ============================================================
+Build/
+
+# ============================================================
+# IAR build cache & generated files
+# ============================================================
+IAR/*/Multi Motor Evalkit V1.0/
+IAR/*/.MMEk_Demo_*_build_cache/
+IAR/*/.ninja_*
+IAR/*/BrowseInfo/
+IAR/**/*.dep
+IAR/**/*.log
+IAR/**/settings/
+
+# ============================================================
+# IAR workspace debug settings (root level)
+# ============================================================
+settings/
+
+# ============================================================
+# Backup archives & temp files
+# ============================================================
+*.zip
+*.tmp
+*.log
+IAR/*/*.zip
+
+# ============================================================
+# IDE / tool local config
+# ============================================================
+.claude/
+.kilo/
+.idea/
+.vscode/
+.cproject
+.project
+
+# ============================================================
+# Stale backup directories
+# ============================================================
+M0_BSW/SOURCE/ld_sysclk(bak)/
+
+# ============================================================
+# MATLAB calibration derivatives
+# ============================================================
+Math/power_cal_data - 副本.csv
+Math/power_cal_result.mat
+
+# ============================================================
+# MATLAB / Simulink generated cache and local run artifacts
+# ============================================================
+**/slprj/
+*.slxc
+*.mexw64
+*.autosave
+*.mldatx.bak
+*.slx.original
+**/tmwinternal/
+**/*_ert_rtw/buildInfo.mat
+**/*_ert_rtw/codeInfo.mat
+**/*_ert_rtw/codedescriptor.dmr
+**/*_ert_rtw/rtw_proj.tmw
+**/*_ert_rtw/rtwtypeschksum.mat
+**/*_harnessInfo.xml
+
+# Generated test entry points are recreated by Embedded Coder and are not
+# linked into the production firmware.
+**/*_ert_rtw/ert_main.c
+**/*_ert_rtw/rtGetNaN.c
+
+# ============================================================
+# Local document extraction and report output
+# ============================================================
+*.pdf-*/
+outputs/
+afo/extract_out/
+
+# ============================================================
+# Local copies of the active calibration database
+# ============================================================
+xcp/*副本*.a2l
+xcp/*_bkup.a2l
